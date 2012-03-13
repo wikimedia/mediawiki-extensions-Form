@@ -143,6 +143,27 @@ $messages['arz'] = array(
 	'formsaveerrortext' => "حدث خطأ غير معروف أثناء حفظ الاستمارة '$1'.",
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'form-desc' => "Una [[Special:Form|interfaz de formulariu]] p'aniciar páxines nueves",
+	'form' => 'Formulariu',
+	'formnoname' => 'Formulariu ensin nome',
+	'formnonametext' => 'Tienes de dar un nome de formulariu, como "Special:Form/Nomedelformulariu".',
+	'formbadname' => 'Nome de formulariu incorreutu',
+	'formbadnametext' => 'Nun hai dengún formulariu con esi nome.',
+	'formpattern' => '$1-formulariu',
+	'formtitlepattern' => 'Amestar un nuevu $1',
+	'formsave' => 'Guardar',
+	'formindexmismatch-title' => 'El patrón de nome y la plantía nun casen',
+	'formindexmismatch' => 'Esti formulariu tien patrones de nome y plantíes que nun casen, comenzando nel índiz $1.',
+	'formarticleexists' => 'La páxina yá esiste',
+	'formarticleexiststext' => 'La páxina [[$1]] yá esiste.',
+	'formbadpagename' => 'Nome de páxina incorreutu',
+	'formbadrecaptcha' => 'Valores incorreutos nel reCaptcha. Intentalo otra vuelta.',
+);
+
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
  * @author Vago
