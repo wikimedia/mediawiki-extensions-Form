@@ -1352,6 +1352,7 @@ Por favor, {{PLURAL:$2|preencha-o|preencha-os}}.',
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
  * @author Malafaya
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'form-desc' => 'Uma [[Special:Form|interface em formulário]] para criar novas páginas',
@@ -1373,7 +1374,7 @@ $messages['pt-br'] = array(
 	'formrequiredfielderror' => '{{PLURAL:$2|O campo $1 é obrigatório|Os campos $1 são obrigatórios}} neste formulário.
 Por favor, {{PLURAL:$2|preencha-o|preencha-os}}.',
 	'formsavesummary' => 'Nova página usando [[Special:Form/$1|formulário $1]]',
-	'formsaveerror' => 'Erro ao gravar formulário',
+	'formsaveerror' => 'Erro ao salvar o formulário',
 	'formsaveerrortext' => "Houve um erro desconhecido ao salvar a página '$1'.",
 );
 
