@@ -1350,9 +1350,9 @@ Por favor, {{PLURAL:$2|preencha-o|preencha-os}}.',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
+ * @author 555
  * @author Eduardo.mps
  * @author Malafaya
- * @author 555
  */
 $messages['pt-br'] = array(
 	'form-desc' => 'Uma [[Special:Form|interface em formulário]] para criar novas páginas',
