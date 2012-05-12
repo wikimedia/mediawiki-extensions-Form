@@ -162,6 +162,12 @@ $messages['ast'] = array(
 	'formarticleexiststext' => 'La páxina [[$1]] yá esiste.',
 	'formbadpagename' => 'Nome de páxina incorreutu',
 	'formbadrecaptcha' => 'Valores incorreutos nel reCaptcha. Intentalo otra vuelta.',
+	'formbadpagenametext' => 'Los datos del formulariu qu\'escribisti formen un nome de páxina incorreutu, "$1".',
+	'formrequiredfielderror' => '{{PLURAL:$2|El campu $1 ye obligatoriu|Los campos $1 son obligatorios}} nesti formulariu.
+Por favor, {{PLURAL:$2|rellenalu|rellenalos}}.',
+	'formsavesummary' => "Nueva páxina usando'l [[Special:Form/$1|formulariu $1]]",
+	'formsaveerror' => 'Error al guardar el formulariu',
+	'formsaveerrortext' => "Hebo un error desconocíu al guardar la páxina '$1'.",
 );
 
 /** Azerbaijani (Azərbaycanca)
@@ -1188,6 +1194,7 @@ Vul {{PLURAL:$2|dit|deze}} alstublieft in.',
  * @author Frokor
  * @author Harald Khan
  * @author Jon Harald Søby
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'form-desc' => 'Eit [[Special:Form|skjema]] for å opprette nye sider',
@@ -1655,7 +1662,7 @@ $messages['tg-cyrl'] = array(
 	'formsaveerrortext' => "Дар ҳоли захираи саҳифаи '$1' хатои ношиносе буд.",
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1765,7 +1772,7 @@ $messages['uk'] = array(
 	'formsaveerrortext' => 'Невідома помилка збереження сторінки "$1".',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
