@@ -390,6 +390,13 @@ $messages['de-formal'] = array(
 Bitte füllen Sie {{PLURAL:$2|es|sie}} aus.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'form' => 'Form',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
