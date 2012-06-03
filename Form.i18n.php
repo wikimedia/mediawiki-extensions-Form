@@ -867,9 +867,10 @@ $messages['it'] = array(
  * @author Aotake
  * @author Fryed-peach
  * @author Hosiryuhosi
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'form-desc' => 'ページを作成する[[Special:Form|フォーム形式のインタフェース]]',
+	'form-desc' => 'ページを作成する[[Special:Form|フォーム形式のインターフェイス]]',
 	'form' => 'フォーム',
 	'formnoname' => 'フォーム名がありません',
 	'formnonametext' => 'フォームの名前を決めなければなりません。(例: Special:Form/Nameofform)',
