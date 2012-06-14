@@ -143,7 +143,7 @@ $messages['arz'] = array(
 	'formsaveerrortext' => "حدث خطأ غير معروف أثناء حفظ الاستمارة '$1'.",
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -170,7 +170,7 @@ Por favor, {{PLURAL:$2|rellenalu|rellenalos}}.',
 	'formsaveerrortext' => "Hebo un error desconocíu al guardar la páxina '$1'.",
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  */
@@ -216,7 +216,7 @@ $messages['be-tarask'] = array(
 	'formsaveerrortext' => "Адбылася невядомая памылка пад час захаваньня старонкі '$1'.",
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -254,7 +254,7 @@ $messages['bn'] = array(
 	'formsaveerror' => 'ফরম সংরক্ষণে ত্রুটি',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -283,7 +283,7 @@ Leugnit {{PLURAL:$2|anezhi|anezho}} mar plij.',
 	'formsaveerrortext' => "Ur fazi zo bet e-ser enrollañ ar bajenn '$1'.",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -310,7 +310,7 @@ Molimo popunite {{PLURAL:$2|ga|ih}}.',
 	'formsaveerrortext' => "Desila se nepoznata greška pri spremanju stranice '$1'.",
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  */
 $messages['ca'] = array(
@@ -321,12 +321,12 @@ $messages['ca'] = array(
 	'formsaveerror' => 'Error desant el formulari',
 );
 
-/** Sorani (کوردی) */
+/** Sorani Kurdish (کوردی) */
 $messages['ckb'] = array(
 	'formsave' => 'پاشەکەوت',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Li-sung
  * @author Matěj Grabovský
@@ -476,7 +476,7 @@ Bonvolu plenigi {{PLURAL:$2|ĝin|ilin}}.',
 	'formsaveerrortext' => "Estis nekonata eraro konservante paĝon '$1'.",
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Imre
  * @author Sanbec
@@ -505,7 +505,7 @@ Por favor {{PLURAL:$2|rellénelo|rellénelos}}.',
 	'formsaveerrortext' => "Hubo un error desconocido grabando la página '$1'.",
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  */
@@ -515,7 +515,7 @@ $messages['eu'] = array(
 	'formarticleexists' => 'Orrialdea existitzen da',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Centerlink
  * @author Cimon Avaro
  * @author Crt
@@ -546,7 +546,7 @@ Ole hyvä ja täytä {{PLURAL:$2|se|ne}}.',
 	'formsaveerrortext' => "Tuntematon virhe tapahtui sivua '$1' tallennettaessa.",
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Grondin
  * @author IAlex
@@ -578,7 +578,7 @@ Vous devez le{{PLURAL:$2||s}} remplir.',
 	'formsaveerrortext' => "Une erreur inconnue s’est produite pendant la sauvegarde de ''$1''.",
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -699,7 +699,7 @@ $messages['he'] = array(
 	'formsaveerrortext' => "אירעה שגיאה בלתי ידועה בעת שמירת הדף '$1'.",
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  */
 $messages['hr'] = array(
@@ -732,7 +732,7 @@ $messages['hsb'] = array(
 	'formsaveerrortext' => 'Bě njeznaty zmylk při składowanju nastawka "$1".',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -760,7 +760,7 @@ Kérlek {{PLURAL:$2|töltsd ki|töltsd ki őket}}.',
 	'formsaveerrortext' => 'A(z) „$1” lap mentésekor ismeretlen hiba történt.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -829,14 +829,14 @@ $messages['io'] = array(
 	'formsave' => 'Registragar',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
 	'formsave' => 'Vista',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -1010,7 +1010,7 @@ $messages['mhr'] = array(
 	'formsave' => 'Аралаш',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1198,7 +1198,7 @@ Vul {{PLURAL:$2|dit|deze}} alstublieft in.',
 	'formsaveerrortext' => "Er is een onbekende fout opgetreden bij het opslaan van pagina '$1'.",
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Frokor
  * @author Harald Khan
  * @author Jon Harald Søby
@@ -1227,7 +1227,7 @@ $messages['nn'] = array(
 	'formsaveerrortext' => 'Det var ein ukjend feil under lagring av sida ‘$1’.',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1268,7 +1268,7 @@ $messages['pdc'] = array(
 	'formsave' => 'Beilege',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Leinad
  * @author Sp5uhe
@@ -1334,7 +1334,7 @@ $messages['ps'] = array(
 	'formarticleexists' => 'پدې نوم مخ شته',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Lijealso
  * @author Malafaya
@@ -1364,7 +1364,7 @@ Por favor, {{PLURAL:$2|preencha-o|preencha-os}}.',
 	'formsaveerrortext' => "Houve um erro desconhecido ao gravar a página '$1'.",
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Eduardo.mps
  * @author Malafaya
@@ -1393,7 +1393,7 @@ Por favor, {{PLURAL:$2|preencha-o|preencha-os}}.',
 	'formsaveerrortext' => "Houve um erro desconhecido ao salvar a página '$1'.",
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  */
@@ -1409,14 +1409,14 @@ $messages['ro'] = array(
 	'formsaveerrortext' => "A intervenit o eroare necunoscută la salvarea paginii '$1'.",
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'formsave' => 'Reggistre',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Innv
  * @author Rubin
  * @author Александр Сигачёв
@@ -1445,7 +1445,7 @@ $messages['ru'] = array(
 	'formsaveerrortext' => 'При сохранении страницы «$1» возникла неизвестная ошибка.',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  */
 $messages['scn'] = array(
@@ -1462,7 +1462,7 @@ $messages['si'] = array(
 	'formbadrecaptcha' => 'reCaptcha වෙනුවෙන් සාවද්‍යය අගයන් සැපයුමකි. යළි උත්සාහ කරන්න.',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1488,7 +1488,7 @@ $messages['sk'] = array(
 	'formsaveerrortext' => 'Pri ukladaní formulára sa vyskytla neznáma chyba „$1“.',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1502,7 +1502,7 @@ $messages['so'] = array(
 	'formsave' => 'Kaydi',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -1520,7 +1520,7 @@ $messages['sr-ec'] = array(
 	'formsaveerror' => 'Грешка приликом снимања форме',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Жељко Тодоровић
  */
@@ -1581,7 +1581,7 @@ $messages['su'] = array(
 	'formsaveerrortext' => "Aya éror nu teu kanyahoan nalika nyimpen kaca '$1'.",
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author Lejonel
  * @author M.M.S.
@@ -1653,7 +1653,7 @@ $messages['te'] = array(
 	'formsaveerrortext' => "'$1' పేజీని భద్రపరచడంలో ఏదో తెలియని పొరపాటు జరిగింది.",
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1670,7 +1670,7 @@ $messages['tg-cyrl'] = array(
 	'formsaveerrortext' => "Дар ҳоли захираи саҳифаи '$1' хатои ношиносе буд.",
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1744,14 +1744,14 @@ $messages['tr'] = array(
 	'formsaveerror' => 'Formu kaydetmede hata',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Timming
  */
 $messages['tt-cyrl'] = array(
 	'formsavesummary' => 'Яңа бит, [[Special:Form/$1|$1 формасы]] ярдәмендә',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Aleksandrit
  * @author Alex Khimich
  * @author Тест
@@ -1840,7 +1840,7 @@ $messages['yi'] = array(
 	'formbadpagename' => 'נישט געהעריגער בלאַט נאָמען',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  * @author Liangent
  */
@@ -1858,7 +1858,7 @@ $messages['zh-hans'] = array(
 	'formsaveerror' => '储存表格时发生错误',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Wrightbus
  */
