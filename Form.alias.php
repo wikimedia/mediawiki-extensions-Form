@@ -31,7 +31,7 @@ $specialPageAliases['de'] = array(
 	'Form' => array( 'Eingabefeld' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'Form' => array( 'Formular' ),
 );
@@ -46,7 +46,7 @@ $specialPageAliases['frp'] = array(
 	'Form' => array( 'Formulèro' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'Form' => array( 'Formulario' ),
 );
@@ -56,7 +56,7 @@ $specialPageAliases['he'] = array(
 	'Form' => array( 'טופס' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'Form' => array( 'Formular' ),
 );
