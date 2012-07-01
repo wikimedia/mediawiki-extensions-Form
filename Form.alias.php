@@ -166,6 +166,11 @@ $specialPageAliases['pl'] = array(
 	'Form' => array( 'Formularz' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'Form' => array( 'Formulário' ),
+);
+
 /** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'Form' => array( 'Formular' ),

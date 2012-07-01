@@ -73,7 +73,7 @@ $messages['af'] = array(
 	'formsave' => 'Stoor',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -187,7 +187,7 @@ $messages['bcl'] = array(
 	'formsave' => 'Itagama',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -397,7 +397,7 @@ $messages['diq'] = array(
 	'form' => 'Form',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -607,7 +607,7 @@ $messages['fy'] = array(
 	'formsave' => 'Fêstlizze',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  * @author Xosé
@@ -706,7 +706,7 @@ $messages['hr'] = array(
 	'formsave' => 'Spremi',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -939,6 +939,13 @@ $messages['km'] = array(
 	'formsavesummary' => 'ទំព័រ​ប្រើប្រាស់​ថ្មី [[Special:Form/$1|ទម្រង់ $1]]',
 	'formsaveerror' => 'កំហុសរក្សាទុកសំណុំបែបបទ',
 	'formsaveerrortext' => "មានកំហុសមិនស្គាល់មួយក្នុងការរក្សាទុកទំព័រ '$1'។",
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'formsave' => '저장',
 );
 
 /** Colognian (Ripoarisch)
