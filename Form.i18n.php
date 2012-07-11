@@ -1010,7 +1010,7 @@ Fëllt {{PLURAL:$2|et|se}} w.e.g. aus.",
 	'formsaveerrortext' => "Et gouf een onbekannte Feeler beim späichere vun der Säit '$1'.",
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Сай
  */
 $messages['mhr'] = array(
@@ -1121,7 +1121,7 @@ $messages['my'] = array(
 	'formsave' => 'သိမ်းရန်',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1140,8 +1140,7 @@ $messages['nah'] = array(
 	'formbadpagename' => 'Ahcualli zāzaniltōcāitl',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1787,7 +1786,7 @@ $messages['uk'] = array(
 	'formsaveerrortext' => 'Невідома помилка збереження сторінки "$1".',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(

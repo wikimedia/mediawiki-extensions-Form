@@ -136,7 +136,7 @@ $specialPageAliases['mt'] = array(
 	'Form' => array( 'Formola' ),
 );
 
-/** Erzya (Эрзянь) */
+/** Erzya (эрзянь) */
 $specialPageAliases['myv'] = array(
 	'Form' => array( 'Парцун' ),
 );
