@@ -395,6 +395,8 @@ Bitte füllen Sie {{PLURAL:$2|es|sie}} aus.',
  */
 $messages['diq'] = array(
 	'form' => 'Form',
+	'formtitlepattern' => '$1 ya newi deke',
+	'formsave' => 'Star ke',
 );
 
 /** Lower Sorbian (dolnoserbski)
