@@ -517,6 +517,14 @@ $messages['eu'] = array(
 	'formarticleexists' => 'Orrialdea existitzen da',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'form' => 'فرم',
+	'formtitlepattern' => 'افزودن جدید $1',
+);
+
 /** Finnish (suomi)
  * @author Centerlink
  * @author Cimon Avaro
@@ -1462,8 +1470,11 @@ $messages['scn'] = array(
 
 /** Sinhala (සිංහල)
  * @author චතුනි අලහප්පෙරුම
+ * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'form' => 'ෆෝරමය',
+	'formsave' => 'සුරකින්න',
 	'formarticleexists' => 'පිටුව පවතියි',
 	'formarticleexiststext' => '[[$1]] පිටුව දැනටමත් පවතියි.',
 	'formbadpagename' => 'නොමනා පිටු නාමය',
