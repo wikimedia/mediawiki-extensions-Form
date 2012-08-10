@@ -928,6 +928,21 @@ Mangga diisi {{PLURAL:$2|iki|iki}}.',
 	'formsaveerrortext' => "Ana kaluputan sing ora dimangertèni nalika nyimpen kaca '$1'.",
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'form' => 'ფორმა',
+	'formnoname' => 'ფორმის სახელი არ არის',
+	'formbadname' => 'ფორმის ცუდი სახელი',
+	'formpattern' => '$1-ფორმა',
+	'formtitlepattern' => 'ახალი $1 დამატება',
+	'formsave' => 'შენახვა',
+	'formarticleexists' => 'გვერდი არსებობს',
+	'formarticleexiststext' => 'გვერდი „[[$1]]“ უკვე არსებობს.',
+	'formbadpagename' => 'გვერდის ცუდი სახელი',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Thearith
