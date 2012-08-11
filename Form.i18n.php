@@ -970,7 +970,27 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'form-desc' => '새 문서를 시작하기 위한 [[Special:Form|양식 인터페이스]]',
+	'form' => '양식',
+	'formnoname' => '양식 이름이 없습니다',
+	'formnonametext' => '"특수기능:양식/양식이름"과 같이 양식 이름을 제공해야 합니다.',
+	'formbadname' => '잘못된 양식 이름입니다',
+	'formbadnametext' => '이러한 이름의 양식은 없습니다.',
+	'formpattern' => '$1-양식',
+	'formtitlepattern' => '새 $1 추가',
 	'formsave' => '저장',
+	'formindexmismatch-title' => '이름 패턴과 틀 불일치',
+	'formindexmismatch' => '이 양식은 이름 패턴과 $1 색인에서 시작한 틀이 불일치합니다.',
+	'formarticleexists' => '문서가 존재합니다',
+	'formarticleexiststext' => '[[$1]] 문서가 이미 존재합니다.',
+	'formbadpagename' => '잘못된 문서 이름입니다',
+	'formbadrecaptcha' => '잘못된 reCaptcha 값입니다. 다시 시도하세요.',
+	'formbadpagenametext' => '입력한 양식 데이터는 잘못된 문서 이름인 "$1"(을)를 만들었습니다.',
+	'formrequiredfielderror' => '{{PLURAL:$2|$1 필드}}는 이 양식에 대해 필요합니다.
+{{PLURAL:$2|이}}를 채우세요.',
+	'formsavesummary' => '[[Special:Form/$1|$1 양식]]을 사용한 새 문서',
+	'formsaveerror' => '양식을 저장하는 중 오류났습니다',
+	'formsaveerrortext' => "'$1' 문서를 저장하는 중 알 수 없는 오류가 발생했습니다.",
 );
 
 /** Colognian (Ripoarisch)
