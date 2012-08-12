@@ -1159,6 +1159,19 @@ Sila {{PLURAL:$2|isinya|isi semuanya}}.',
 	'formsaveerrortext' => "Berlakunya ralat yang tidak dikenali sewaktu menyimpan laman '$1'.",
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'formbadnametext' => "M'hemm l-ebda formola b'dak l-isem.",
+	'formpattern' => '$1-formola',
+	'formtitlepattern' => 'Żid $1 ġdid',
+	'formsave' => 'Salva',
+	'formarticleexists' => 'Il-paġna teżisti',
+	'formarticleexiststext' => 'Il-paġna [[$1]] diġà teżisti.',
+	'formbadpagename' => 'L-isem tal-paġna huwa ħażin',
+);
+
 /** Burmese (မြန်မာဘာသာ)
  * @author Erikoo
  */
@@ -1673,11 +1686,21 @@ $messages['sw'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author TRYPPN
  */
 $messages['ta'] = array(
+	'form' => 'படிவம்',
+	'formbadname' => 'மோசமான படிவப் பெயர்',
+	'formbadnametext' => 'இந்தப் பெயரில் எந்தப் படிவமும் இல்லை.',
+	'formpattern' => '$1-படிவம்',
+	'formtitlepattern' => 'புதிய $1ஐச் சேர்',
 	'formsave' => 'சேமி',
 	'formarticleexists' => 'இப்பக்கம் உள்ளது',
+	'formarticleexiststext' => ' பக்கம் [[$1]] ஏற்கனவே உள்ளது.',
+	'formbadpagename' => 'மோசமான பக்கப் பெயர்',
+	'formsaveerror' => 'படிவத்தைச் சேமிப்பதில் பிழை',
+	'formsaveerrortext' => "'$1' பக்கத்தைச் சேமிப்பதில் அறியப்படாத ஒரு தவறு நேர்ந்தது.",
 );
 
 /** Tulu (ತುಳು)
