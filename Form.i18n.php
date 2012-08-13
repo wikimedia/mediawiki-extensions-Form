@@ -507,6 +507,14 @@ Por favor {{PLURAL:$2|rellénelo|rellénelos}}.',
 	'formsaveerrortext' => "Hubo un error desconocido grabando la página '$1'.",
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'formsave' => 'Salvesta',
+	'formarticleexists' => 'Lehekülg on olemas',
+);
+
 /** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
