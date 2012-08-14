@@ -1485,6 +1485,8 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'form' => 'Module',
+	'formpattern' => '$1-form',
 	'formsave' => 'Reggistre',
 );
 
