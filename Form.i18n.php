@@ -625,6 +625,13 @@ $messages['fy'] = array(
 	'formsave' => 'Fêstlizze',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'formsave' => 'Sábháil',
+);
+
 /** Galician (galego)
  * @author Alma
  * @author Toliño
