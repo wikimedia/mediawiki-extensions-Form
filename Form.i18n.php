@@ -638,26 +638,27 @@ $messages['ga'] = array(
  * @author Xosé
  */
 $messages['gl'] = array(
-	'form-desc' => 'Un [[Special:Form|formulario como interface]] para comezar páxinas novas',
+	'form-desc' => 'Un [[Special:Form|interface de formulario]] para comezar páxinas novas',
 	'form' => 'Formulario',
-	'formnoname' => 'Formulario sen Nome',
-	'formnonametext' => 'Tenlle que dar un nome ao formulario, como "Special:Form/Nomedoformulario".',
-	'formbadname' => 'Formulario con Nome incorrecto',
+	'formnoname' => 'Formulario sen nome',
+	'formnonametext' => 'Cómpre dar un nome ao formulario, como "Special:Form/Nomedoformulario".',
+	'formbadname' => 'Nome de formulario incorrecto',
 	'formbadnametext' => 'Non hai ningún formulario con ese nome.',
-	'formpattern' => 'formulario-$1',
-	'formtitlepattern' => 'Engadir Novo $1',
+	'formpattern' => 'Formulario de $1',
+	'formtitlepattern' => 'Engadir un novo $1',
 	'formsave' => 'Gardar',
 	'formindexmismatch-title' => 'O nome do patrón e o modelo son incompatibles',
 	'formindexmismatch' => 'Este formulario ten nomes de patróns e modelos que non coinciden, comezando por $1.',
 	'formarticleexists' => 'A páxina existe',
 	'formarticleexiststext' => 'A páxina "[[$1]]" xa existe.',
-	'formbadpagename' => 'Nome de Páxina incorrecto',
+	'formbadpagename' => 'Nome de páxina incorrecto',
 	'formbadrecaptcha' => 'Valores incorrectos na reCaptcha. Inténteo de novo.',
-	'formbadpagenametext' => 'O formulario de datos que vostede introduciu fixo un nome de páxina incorrecto, "$1".',
-	'formrequiredfielderror' => '{{PLURAL:$2|O campo $1 é requirido|Os campos $1 son requiridos}} para este formulario. Por favor, {{PLURAL:$2|énchao|énchaos}}.',
+	'formbadpagenametext' => 'Os datos que introduciu no formulario resultaron nun nome de páxina incorrecto, "$1".',
+	'formrequiredfielderror' => '{{PLURAL:$2|O campo $1 é obrigatorio|Os campos $1 son obrigatorios}} neste formulario.
+Por favor, {{PLURAL:$2|énchao|énchaos}}.',
 	'formsavesummary' => 'Nova páxina usando [[Special:Form/$1|o formulario $1]]',
 	'formsaveerror' => 'Erro ao gardar o formulario',
-	'formsaveerrortext' => "Houbo un erro descoñecido ao gardar a páxina '$1'.",
+	'formsaveerrortext' => 'Houbo un erro descoñecido ao gardar a páxina "$1".',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
