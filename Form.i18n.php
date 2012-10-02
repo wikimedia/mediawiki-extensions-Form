@@ -187,7 +187,7 @@ $messages['bcl'] = array(
 	'formsave' => 'Itagama',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -380,7 +380,7 @@ Bitte fülle {{PLURAL:$2|es|sie}} aus.',
 	'formsaveerrortext' => 'Es gab einen unbekannten Fehler beim Speichern der Seite „$1“.',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Imre
  * @author Umherirrender
  */
@@ -1214,7 +1214,7 @@ $messages['nah'] = array(
 	'formbadpagename' => 'Ahcualli zāzaniltōcāitl',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1278,7 +1278,7 @@ Vul {{PLURAL:$2|dit|deze}} alstublieft in.',
 	'formsaveerrortext' => "Er is een onbekende fout opgetreden bij het opslaan van pagina '$1'.",
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Frokor
  * @author Harald Khan
  * @author Jon Harald Søby
@@ -1587,7 +1587,7 @@ $messages['so'] = array(
 	'formsave' => 'Kaydi',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -1605,7 +1605,7 @@ $messages['sr-ec'] = array(
 	'formsaveerror' => 'Грешка приликом снимања форме',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Жељко Тодоровић
  */
@@ -1935,7 +1935,7 @@ $messages['yi'] = array(
 	'formbadpagename' => 'נישט געהעריגער בלאַט נאָמען',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Liangent
  */
@@ -1953,7 +1953,7 @@ $messages['zh-hans'] = array(
 	'formsaveerror' => '储存表格时发生错误',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Wrightbus
  */
