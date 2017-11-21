@@ -156,8 +156,6 @@ class SpecialForm extends SpecialPage {
 	}
 
 	private function showForm( $form, $errMsg = null ) {
-		global $wgSpecialFormRecaptcha;
-
 		$out = $this->getOutput();
 		$request = $this->getRequest();
 		$user = $this->getUser();
@@ -199,13 +197,6 @@ class SpecialForm extends SpecialPage {
 			);
 		}
 
-		# Anonymous user, use reCAPTCHA
-		if ( $user->isAnon() && $wgSpecialFormRecaptcha ) {
-			require_once 'recaptchalib.php';
-			global $recaptcha_public_key; # same as used by reCAPTCHA extension
-			$out->addHTML( recaptcha_get_html( $recaptcha_public_key ) );
-		}
-
 		# CAPTCHA enabled?
 		if ( $this->useCaptcha() ) {
 			$out->addHTML( $this->getCaptcha() );
@@ -226,28 +217,9 @@ class SpecialForm extends SpecialPage {
 	 * @param Form $form
 	 */
 	private function createArticle( $form ) {
-		global $wgSpecialFormRecaptcha;
-
 		$out = $this->getOutput();
 		$request = $this->getRequest();
 		$user = $this->getUser();
-
-		# Check reCAPTCHA
-		if ( $user->isAnon() && $wgSpecialFormRecaptcha ) {
-			require_once 'recaptchalib.php';
-			global $recaptcha_private_key; # same as used by reCAPTCHA extension
-			$resp = recaptcha_check_answer(
-				$recaptcha_private_key,
-				$_SERVER['REMOTE_ADDR'],
-				$request->getText( 'recaptcha_challenge_field' ),
-				$request->getText( 'recaptcha_response_field' )
-			);
-
-			if ( !$resp->is_valid ) {
-				$this->showForm( $form, $this->msg( 'form-bad-recaptcha' )->text() );
-				return;
-			}
-		}
 
 		# Check ordinary CAPTCHA
 		if ( $this->useCaptcha() && !ConfirmEditHooks::getInstance()->passCaptchaFromRequest( $request, $user ) ) {

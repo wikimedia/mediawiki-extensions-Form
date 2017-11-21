@@ -9,9 +9,6 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:Form",
 	"descriptionmsg": "form-desc",
 	"type": "specialpage",
-	"config": {
-		"SpecialFormRecaptcha": false
-	},
 	"SpecialPages": {
 		"Form": "SpecialForm"
 	},

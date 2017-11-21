@@ -21,7 +21,6 @@
 	"form-article-exists": "Page exists",
 	"form-article-existstext": "The page [[$1]] already exists.",
 	"form-bad-page-name": "Bad page name",
-	"form-bad-recaptcha": "Incorrect values for reCaptcha. Try again.",
 	"form-bad-page-name-text": "The form data you entered makes a bad page name, \"$1\".",
 	"form-required-field-error": "The {{PLURAL:$2|field $1 is|fields $1 are}} required for this form.\nPlease fill {{PLURAL:$2|it|them}} in.",
 	"form-save-summary": "New page using [[Special:Form/$1|form $1]]",
