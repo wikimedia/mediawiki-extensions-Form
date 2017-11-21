@@ -1,7 +1,7 @@
 MediaWiki Form extension
 
-version 0.2
-1 Oct 2007
+version 0.6
+12 November 2017
 
 This is the README file for the Form extension for MediaWiki
 software. The extension is only useful if you've got a MediaWiki
@@ -44,9 +44,9 @@ Evan Prodromou <evan@vinismo.com>
 
 == Pre-requisites ==
 
-This software was tested with MediaWiki 1.10.0 (which is what
-Vinismo was running at the time.) It may or may not work with
-earlier or later versions, but please test it.
+This software was tested with MediaWiki 1.29.0.
+
+It may or may not work with earlier or later versions, but please test it.
 
 == Installation ==
 
@@ -59,7 +59,7 @@ code all in the "Form" sub-directory; naming it
 In your MediaWiki LocalSettings.php, add the following line some place
 towards the bottom of the file:
 
-	require_once("$IP/extensions/Form/Form.php");
+	wfLoadExtension( 'Form' );
 
 Theoretically it should work out of the box.
 
@@ -196,16 +196,19 @@ fails to complete a required field, it will be rendered empty.
 == Translation ==
 
 The user interface strings for this extension are configurable through
-the same Special:Allmessages page as MediaWiki itself. They all start
-with "form", and they're no more or less cryptic than MediaWiki's.
+the same Special:AllMessages page as MediaWiki itself. They all start
+with "form-", and they're no more or less cryptic than MediaWiki's.
 
 Translations to other languages besides English are welcome; please
 send them along.
 
 == Bugs and enhancements ==
+Bugs and issues should be reported on the MediaWiki Phabricator:
 
-Bugs or feature requests can be sent to the author at
-evan@vinismo.com. The TODO file in this distribution has stuff I
-think needs to be todone; + marks show things I've already done, and -
+https://phabricator.wikimedia.org/maniphest/task/create/?projects=MediaWiki-extensions-Form
+
+The TODO file in this distribution has stuff I
+think needs to be to done; + marks show things I've already done, and -
 shows things that are yet to be done.
+
 

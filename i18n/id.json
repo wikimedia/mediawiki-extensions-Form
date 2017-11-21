@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Irwangatot",
+			"IvanLanin"
+		]
+	},
+	"form-desc": "Suatu [[Special:Form|antarmuka formulir]] untuk membuat halaman baru",
+	"form": "Formulir",
+	"form-no-name": "Nama formulir kosong",
+	"form-no-name-text": "Anda harus memasukkan nama formulir seperti \"Special:Form/Namaformulir\".",
+	"form-bad-name": "Nama formulir salah",
+	"form-bad-name-text": "Tidak ada formulir dengan nama itu.",
+	"form-pattern": "$1-form",
+	"formtitlepattern": "Tambah $1 baru",
+	"form-save": "Simpan",
+	"form-index-mismatch-title": "Pola nama dan templat tidak cocok",
+	"form-index-mismatch": "Formulir ini tidak cocok dengan pola nama dan templat dimulai dari indeks $1.",
+	"form-article-exists": "Halaman telah ada",
+	"form-article-existstext": "Halaman [[$1]] telah ada.",
+	"form-bad-page-name": "Nama halaman salah",
+	"form-bad-recaptcha": "Nilai reCaptcha salah. Coba lagi.",
+	"form-bad-page-name-text": "Data formulir yang Anda masukkan mengandung nama halaman yang salah, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Isian $1|Isian $1}} diperlukan oleh formulir ini.\nSilakan masukkan {{PLURAL:$2|isian|isian}} itu.",
+	"form-save-summary": "Halaman baru menggunakan [[Special:Form/$1|formulir $1]]",
+	"form-save-error": "Kesalahan penyimpanan formulir",
+	"form-save-error-text": "Terjadi kesalahan yang tak dikenal sewaktu menyimpan halaman '$1'."
+}

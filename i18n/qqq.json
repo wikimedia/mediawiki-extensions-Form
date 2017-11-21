@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Jon Harald Søby",
+			"Purodha",
+			"Raymond",
+			"The Evil IP address"
+		]
+	},
+	"form-desc": "{{desc}}",
+	"form-pattern": "The pattern of page names of form definitions. $1 is a given name for a form definition.",
+	"form-save": "{{Identical|Save}}",
+	"form-required-field-error": "* $1 is a comma separated list of missing fields\n* $2 is the number of missing fields"
+}

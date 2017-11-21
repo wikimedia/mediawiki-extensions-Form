@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fluence"
+		]
+	},
+	"formtitlepattern": "Ticcēntilīz yancuīc $1",
+	"form-save": "Ticpiyāz",
+	"form-article-exists": "Zāzanilli ia",
+	"form-article-existstext": "Zāzanilli [[$1]] ye ia.",
+	"form-bad-page-name": "Ahcualli zāzaniltōcāitl"
+}

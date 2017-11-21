@@ -1,0 +1,33 @@
+{
+	"name": "Form",
+	"version": "0.6.0",
+	"author": [
+		"Evan Prodromou",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0+",
+	"url": "https://www.mediawiki.org/wiki/Extension:Form",
+	"descriptionmsg": "form-desc",
+	"type": "specialpage",
+	"config": {
+		"SpecialFormRecaptcha": false
+	},
+	"SpecialPages": {
+		"Form": "SpecialForm"
+	},
+	"MessagesDirs": {
+		"Form": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"FormAliases": "Form.alias.php"
+	},
+	"AutoloadClasses": {
+		"FakeEditPage": "FakeEditPage.php",
+		"Form": "Form.class.php",
+		"FormField": "FormField.php",
+		"SpecialForm": "SpecialForm.php"
+	},
+	"manifest_version": 1
+}

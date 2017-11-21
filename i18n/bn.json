@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bellayet"
+		]
+	},
+	"form-desc": "নতুন পাতা শুরু করতে [[Special:Form|ফরম ইন্টারফেস]]",
+	"form": "ফরম",
+	"form-no-name": "কোনো ফরম নাম নাই",
+	"form-bad-name": "মন্দ ফরম নাম",
+	"form-bad-name-text": "এই নামে কোনো ফরম নাই।",
+	"form-pattern": "$1-ফরম",
+	"formtitlepattern": "নতুন $1 যোগ",
+	"form-save": "সংরক্ষণ",
+	"form-article-exists": "পাতা রয়েছে",
+	"form-bad-page-name": "পাতার মন্দ নাম",
+	"form-save-error": "ফরম সংরক্ষণে ত্রুটি"
+}

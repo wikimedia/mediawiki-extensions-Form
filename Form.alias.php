@@ -2,236 +2,237 @@
 /**
  * Aliases for special pages
  *
+ * @file
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
-/** English (English) */
-$specialPageAliases['en'] = array(
-	'Form' => array( 'Form' ),
-);
+/** English */
+$specialPageAliases['en'] = [
+	'Form' => [ 'Form' ],
+];
 
 /** Afrikaans (Afrikaans) */
-$specialPageAliases['af'] = array(
-	'Form' => array( 'Vorm' ),
-);
+$specialPageAliases['af'] = [
+	'Form' => [ 'Vorm' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'Form' => array( 'استمارة' ),
-);
+$specialPageAliases['ar'] = [
+	'Form' => [ 'استمارة' ],
+];
 
 /** Egyptian Spoken Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'Form' => array( 'استماره' ),
-);
+$specialPageAliases['arz'] = [
+	'Form' => [ 'استماره' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'Form' => array( 'Eingabefeld' ),
-);
+$specialPageAliases['de'] = [
+	'Form' => [ 'Eingabefeld' ],
+];
 
 /** Lower Sorbian (dolnoserbski) */
-$specialPageAliases['dsb'] = array(
-	'Form' => array( 'Formular' ),
-);
+$specialPageAliases['dsb'] = [
+	'Form' => [ 'Formular' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'Form' => array( 'فرم' ),
-);
+$specialPageAliases['fa'] = [
+	'Form' => [ 'فرم' ],
+];
 
 /** Franco-Provençal (arpetan) */
-$specialPageAliases['frp'] = array(
-	'Form' => array( 'Formulèro' ),
-);
+$specialPageAliases['frp'] = [
+	'Form' => [ 'Formulèro' ],
+];
 
 /** Galician (galego) */
-$specialPageAliases['gl'] = array(
-	'Form' => array( 'Formulario' ),
-);
+$specialPageAliases['gl'] = [
+	'Form' => [ 'Formulario' ],
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'Form' => array( 'טופס' ),
-);
+$specialPageAliases['he'] = [
+	'Form' => [ 'טופס' ],
+];
 
 /** Upper Sorbian (hornjoserbsce) */
-$specialPageAliases['hsb'] = array(
-	'Form' => array( 'Formular' ),
-);
+$specialPageAliases['hsb'] = [
+	'Form' => [ 'Formular' ],
+];
 
 /** Haitian (Kreyòl ayisyen) */
-$specialPageAliases['ht'] = array(
-	'Form' => array( 'Fomilè' ),
-);
+$specialPageAliases['ht'] = [
+	'Form' => [ 'Fomilè' ],
+];
 
 /** Hungarian (magyar) */
-$specialPageAliases['hu'] = array(
-	'Form' => array( 'Űrlap' ),
-);
+$specialPageAliases['hu'] = [
+	'Form' => [ 'Űrlap' ],
+];
 
 /** Interlingua (interlingua) */
-$specialPageAliases['ia'] = array(
-	'Form' => array( 'Formulario' ),
-);
+$specialPageAliases['ia'] = [
+	'Form' => [ 'Formulario' ],
+];
 
 /** Indonesian (Bahasa Indonesia) */
-$specialPageAliases['id'] = array(
-	'Form' => array( 'FormulirKhusus' ),
-);
+$specialPageAliases['id'] = [
+	'Form' => [ 'FormulirKhusus' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'Form' => array( 'Modulo' ),
-);
+$specialPageAliases['it'] = [
+	'Form' => [ 'Modulo' ],
+];
 
 /** Japanese (日本語) */
-$specialPageAliases['ja'] = array(
-	'Form' => array( 'フォーム' ),
-);
+$specialPageAliases['ja'] = [
+	'Form' => [ 'フォーム' ],
+];
 
 /** Khmer (ភាសាខ្មែរ) */
-$specialPageAliases['km'] = array(
-	'Form' => array( 'សំនុំបែបបទ' ),
-);
+$specialPageAliases['km'] = [
+	'Form' => [ 'សំនុំបែបបទ' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'Form' => array( '양식' ),
-);
+$specialPageAliases['ko'] = [
+	'Form' => [ '양식' ],
+];
 
 /** Colognian (Ripoarisch) */
-$specialPageAliases['ksh'] = array(
-	'Form' => array( 'Fommulaa', 'Formular' ),
-);
+$specialPageAliases['ksh'] = [
+	'Form' => [ 'Fommulaa', 'Formular' ],
+];
 
 /** Ladino (Ladino) */
-$specialPageAliases['lad'] = array(
-	'Form' => array( 'Forma' ),
-);
+$specialPageAliases['lad'] = [
+	'Form' => [ 'Forma' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'Form' => array( 'Formulaire' ),
-);
+$specialPageAliases['lb'] = [
+	'Form' => [ 'Formulaire' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'Form' => array( 'Образец' ),
-);
+$specialPageAliases['mk'] = [
+	'Form' => [ 'Образец' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'Form' => array( 'ഫോം' ),
-);
+$specialPageAliases['ml'] = [
+	'Form' => [ 'ഫോം' ],
+];
 
 /** Marathi (मराठी) */
-$specialPageAliases['mr'] = array(
-	'Form' => array( 'छापीलनमूना' ),
-);
+$specialPageAliases['mr'] = [
+	'Form' => [ 'छापीलनमूना' ],
+];
 
 /** Maltese (Malti) */
-$specialPageAliases['mt'] = array(
-	'Form' => array( 'Formola' ),
-);
+$specialPageAliases['mt'] = [
+	'Form' => [ 'Formola' ],
+];
 
 /** Erzya (эрзянь) */
-$specialPageAliases['myv'] = array(
-	'Form' => array( 'Парцун' ),
-);
+$specialPageAliases['myv'] = [
+	'Form' => [ 'Парцун' ],
+];
 
 /** Norwegian Bokmål (norsk (bokmål)‎) */
-$specialPageAliases['nb'] = array(
-	'Form' => array( 'Skjema' ),
-);
+$specialPageAliases['nb'] = [
+	'Form' => [ 'Skjema' ],
+];
 
 /** Nedersaksisch (Nedersaksisch) */
-$specialPageAliases['nds-nl'] = array(
-	'Form' => array( 'Formulier' ),
-);
+$specialPageAliases['nds-nl'] = [
+	'Form' => [ 'Formulier' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'Form' => array( 'Formulier' ),
-);
+$specialPageAliases['nl'] = [
+	'Form' => [ 'Formulier' ],
+];
 
 /** Occitan (occitan) */
-$specialPageAliases['oc'] = array(
-	'Form' => array( 'Formulari' ),
-);
+$specialPageAliases['oc'] = [
+	'Form' => [ 'Formulari' ],
+];
 
 /** Polish (polski) */
-$specialPageAliases['pl'] = array(
-	'Form' => array( 'Formularz' ),
-);
+$specialPageAliases['pl'] = [
+	'Form' => [ 'Formularz' ],
+];
 
 /** Brazilian Portuguese (português do Brasil) */
-$specialPageAliases['pt-br'] = array(
-	'Form' => array( 'Formulário' ),
-);
+$specialPageAliases['pt-br'] = [
+	'Form' => [ 'Formulário' ],
+];
 
 /** Romanian (română) */
-$specialPageAliases['ro'] = array(
-	'Form' => array( 'Formular' ),
-);
+$specialPageAliases['ro'] = [
+	'Form' => [ 'Formular' ],
+];
 
 /** Sinhala (සිංහල) */
-$specialPageAliases['si'] = array(
-	'Form' => array( 'සිට' ),
-);
+$specialPageAliases['si'] = [
+	'Form' => [ 'සිට' ],
+];
 
 /** Slovak (slovenčina) */
-$specialPageAliases['sk'] = array(
-	'Form' => array( 'Formulár' ),
-);
+$specialPageAliases['sk'] = [
+	'Form' => [ 'Formulár' ],
+];
 
 /** Albanian (shqip) */
-$specialPageAliases['sq'] = array(
-	'Form' => array( 'Formë' ),
-);
+$specialPageAliases['sq'] = [
+	'Form' => [ 'Formë' ],
+];
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
-$specialPageAliases['sr-ec'] = array(
-	'Form' => array( 'Образац' ),
-);
+$specialPageAliases['sr-ec'] = [
+	'Form' => [ 'Образац' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'Form' => array( 'Formulär' ),
-);
+$specialPageAliases['sv'] = [
+	'Form' => [ 'Formulär' ],
+];
 
 /** Swahili (Kiswahili) */
-$specialPageAliases['sw'] = array(
-	'Form' => array( 'Fomu' ),
-);
+$specialPageAliases['sw'] = [
+	'Form' => [ 'Fomu' ],
+];
 
 /** Thai (ไทย) */
-$specialPageAliases['th'] = array(
-	'Form' => array( 'ฟอร์ม' ),
-);
+$specialPageAliases['th'] = [
+	'Form' => [ 'ฟอร์ม' ],
+];
 
 /** Tagalog (Tagalog) */
-$specialPageAliases['tl'] = array(
-	'Form' => array( 'Pormularyo' ),
-);
+$specialPageAliases['tl'] = [
+	'Form' => [ 'Pormularyo' ],
+];
 
 /** Tatar (Cyrillic script) (татарча) */
-$specialPageAliases['tt-cyrl'] = array(
-	'Form' => array( 'Форма' ),
-);
+$specialPageAliases['tt-cyrl'] = [
+	'Form' => [ 'Форма' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'Form' => array( 'Biểu_mẫu' ),
-);
+$specialPageAliases['vi'] = [
+	'Form' => [ 'Biểu_mẫu' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'Form' => array( '表单' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'Form' => [ '表单' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'Form' => array( '表格' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'Form' => [ '表格' ],
+];

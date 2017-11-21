@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong",
+			"Liangent"
+		]
+	},
+	"form": "表单",
+	"form-no-name": "没有表单名",
+	"form-no-name-text": "你必须提供一个表单名，如“Special:Form/表单名”。",
+	"form-bad-name": "错误的表单名",
+	"form-bad-name-text": "没有这个名字的表单。",
+	"form-pattern": "$1-表单",
+	"formtitlepattern": "添加新的$1",
+	"form-save": "保存",
+	"form-article-exists": "页面存在",
+	"form-bad-page-name": "错误的表单名",
+	"form-save-error": "储存表格时发生错误"
+}

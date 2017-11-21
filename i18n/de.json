@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder",
+			"Melancholie",
+			"Umherirrender"
+		]
+	},
+	"form-desc": "Eine [[Special:Form|Eingabemaske]] für das Erzeugen von neuen Seiten",
+	"form": "Formular",
+	"form-no-name": "Kein Formularname",
+	"form-no-name-text": "Du musst einen Formularnamen angeben, z. B. „{{#special:Form}}/Formularname“.",
+	"form-bad-name": "Falscher Formularname",
+	"form-bad-name-text": "Es gibt kein Formular mit diesem Namen.",
+	"form-pattern": "$1-Formular",
+	"formtitlepattern": "Füge neue $1 hinzu",
+	"form-save": "Speichern",
+	"form-index-mismatch-title": "Ungleichgewicht zwischen Namensmustern und Vorlagen",
+	"form-index-mismatch": "Dieses Formular hat ein Ungleichgewicht zwischen Namensmustern und Vorlagen, beginnend bei Index $1.",
+	"form-article-exists": "Seite bereits vorhanden",
+	"form-article-existstext": "Die Seite „[[$1]]“ ist bereits vorhanden.",
+	"form-bad-page-name": "Unzulässiger Seitenname",
+	"form-bad-recaptcha": "Ungültige Werte für reCaptcha. Versuche es nochmals.",
+	"form-bad-page-name-text": "Die eingegebenen Formulardaten erzeugen einen unzulässigen Seitennamen: „$1“.",
+	"form-required-field-error": "{{PLURAL:$2|Das Feld $1 ist ein Pfichtfeld|Die Felder $1 sind Pfichtfelder}}.\nBitte fülle {{PLURAL:$2|es|sie}} aus.",
+	"form-save-summary": "Neue Seite, die auf dem [[Special:Form/$1|Formular $1]] basiert",
+	"form-save-error": "Fehler beim Speichern des Formulares",
+	"form-save-error-text": "Es gab einen unbekannten Fehler beim Speichern der Seite „$1“."
+}

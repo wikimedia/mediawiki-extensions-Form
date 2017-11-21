@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paucabot"
+		]
+	},
+	"form": "Formulari",
+	"form-bad-name": "Nom del formulari incorrecte",
+	"formtitlepattern": "Afegeix un nou $1",
+	"form-save": "Desa",
+	"form-save-error": "Error desant el formulari"
+}

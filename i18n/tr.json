@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karduelis",
+			"Vito Genovese"
+		]
+	},
+	"form": "Form",
+	"form-no-name": "Form adı yok",
+	"form-bad-name": "Kötü form adı",
+	"form-bad-name-text": "Bu isimde bir form yok.",
+	"formtitlepattern": "Yeni $1 ekle",
+	"form-save": "Kaydet",
+	"form-article-exists": "Sayfa mevcut",
+	"form-bad-page-name": "Kötü madde adı",
+	"form-save-error": "Formu kaydetmede hata"
+}

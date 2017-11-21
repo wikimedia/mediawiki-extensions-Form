@@ -1,6 +1,4 @@
 + set title correctly
-- add a token to session, store it in the form, and check that they
-  match on submit, to prevent automated creation
 + create a new article on submit
 + required/optional fields
 - add a bit of text to indicate required fields
@@ -15,4 +13,4 @@
 + create more than one article from one form
 - text field validation with regexes on client and server
 - file upload fields (for uploading an associated image)
-- add new page creations to a special:log file
+- add new page creations to a Special:Log page

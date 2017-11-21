@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"form": "Module",
+	"form-pattern": "$1-form",
+	"form-save": "Reggistre"
+}
