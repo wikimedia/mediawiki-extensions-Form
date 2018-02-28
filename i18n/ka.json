@@ -8,7 +8,6 @@
 	"form-no-name": "ფორმის სახელი არ არის",
 	"form-bad-name": "ფორმის ცუდი სახელი",
 	"form-pattern": "$1-ფორმა",
-	"formtitlepattern": "ახალი $1 დამატება",
 	"form-save": "შენახვა",
 	"form-article-exists": "გვერდი არსებობს",
 	"form-article-existstext": "გვერდი „[[$1]]“ უკვე არსებობს.",

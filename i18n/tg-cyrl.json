@@ -7,7 +7,6 @@
 	"form-no-name-text": "Шумо бояд номи формро, ба монанди \"Special:Form/Nameofform\" пешниҳод кунед.",
 	"form-bad-name": "Номи форми номуносиб",
 	"form-bad-name-text": "Ҳеҷ форме бо он ном нест.",
-	"formtitlepattern": "Илова $1и нав",
 	"form-save": "Захира кардан",
 	"form-article-exists": "Саҳифа вуҷуд дорад",
 	"form-article-existstext": "Саҳифа [[$1]] аллакай вуҷуд дорад.",

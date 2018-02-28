@@ -9,6 +9,5 @@
 	"form-save": "සුරකින්න",
 	"form-article-exists": "පිටුව පවතියි",
 	"form-article-existstext": "[[$1]] පිටුව දැනටමත් පවතියි.",
-	"form-bad-page-name": "නොමනා පිටු නාමය",
-	"form-bad-recaptcha": "reCaptcha වෙනුවෙන් සාවද්‍යය අගයන් සැපයුමකි. යළි උත්සාහ කරන්න."
+	"form-bad-page-name": "නොමනා පිටු නාමය"
 }

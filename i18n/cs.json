@@ -12,7 +12,6 @@
 	"form-bad-name": "Špatný název formuláře",
 	"form-bad-name-text": "Formulář se zadaným názvem neexistuje",
 	"form-pattern": "formulář-$1",
-	"formtitlepattern": "Přidat nový $1",
 	"form-save": "Uložit",
 	"form-article-exists": "Stránka existuje",
 	"form-article-existstext": "Stránka [[$1]] už existuje",

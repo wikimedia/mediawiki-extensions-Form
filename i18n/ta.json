@@ -9,7 +9,6 @@
 	"form-bad-name": "மோசமான படிவப் பெயர்",
 	"form-bad-name-text": "இந்தப் பெயரில் எந்தப் படிவமும் இல்லை.",
 	"form-pattern": "$1-படிவம்",
-	"formtitlepattern": "புதிய $1ஐச் சேர்",
 	"form-save": "சேமி",
 	"form-article-exists": "இப்பக்கம் உள்ளது",
 	"form-article-existstext": " பக்கம் [[$1]] ஏற்கனவே உள்ளது.",

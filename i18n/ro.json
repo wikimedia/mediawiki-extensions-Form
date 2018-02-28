@@ -8,7 +8,6 @@
 	"form": "Formular",
 	"form-no-name": "Niciun nume pentru formular",
 	"form-bad-name": "Nume incorect",
-	"formtitlepattern": "Adaugă nou $1",
 	"form-save": "Salvează",
 	"form-article-exists": "Pagina există",
 	"form-article-existstext": "Pagina [[$1]] deja există.",

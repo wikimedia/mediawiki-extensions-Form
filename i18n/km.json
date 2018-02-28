@@ -13,7 +13,6 @@
 	"form-bad-name": "ឈ្មោះសំណុំបែបបទមិនល្អ",
 	"form-bad-name-text": "គ្មានឈ្មោះបែបបទ នោះទេ ។",
 	"form-pattern": "$1-សំណុំបែបបទ",
-	"formtitlepattern": "បន្ថែម $1 ថ្មី",
 	"form-save": "រក្សាទុក",
 	"form-article-exists": "ទំព័រ​មានរួចហើយ",
 	"form-article-existstext": "ទំព័រ [[$1]] មានរួចហើយ។",
