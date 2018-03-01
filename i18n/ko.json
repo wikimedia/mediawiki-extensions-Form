@@ -1,16 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"form-desc": "새 문서를 시작하기 위한 [[Special:Form|양식 인터페이스]]",
-	"form": "양식",
+	"form": "새 문서 시작",
+	"form-captcha-error": "CAPTCHA 오류",
 	"form-no-name": "양식 이름이 없습니다",
 	"form-no-name-text": "\"특수기능:양식/양식이름\"과 같이 양식 이름을 제공해야 합니다.",
 	"form-bad-name": "잘못된 양식 이름입니다",
 	"form-bad-name-text": "이러한 이름의 양식은 없습니다.",
 	"form-pattern": "$1-양식",
+	"form-title-pattern": "새 $1 추가",
 	"form-save": "저장",
 	"form-index-mismatch-title": "이름 패턴과 틀 불일치",
 	"form-index-mismatch": "이 양식은 이름 패턴과 $1 색인에서 시작한 틀이 불일치합니다.",

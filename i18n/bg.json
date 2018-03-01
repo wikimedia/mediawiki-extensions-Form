@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"StanProg"
 		]
 	},
 	"form-desc": "[[Special:Form|Формуляр]] за започване на нови страници",
-	"form": "Формуляр",
+	"form": "Започване на нов страница",
 	"form-no-name": "Липсва име на формуляра",
 	"form-no-name-text": "Необходимо е да се посочи име на формуляр, напр. „Special:Form/ИмеНаФормуляр“",
 	"form-bad-name": "Грешно име на формуляр",

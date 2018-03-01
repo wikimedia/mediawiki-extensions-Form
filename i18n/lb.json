@@ -6,7 +6,8 @@
 		]
 	},
 	"form-desc": "E [[Special:Form|Formulaire]] fir nei Säiten unzefänken",
-	"form": "Formulaire",
+	"form": "Eng nei Säit ufänken",
+	"form-captcha-error": "CAPTCHA-Feeler",
 	"form-no-name": "Keen Numm vum Formulaire",
 	"form-no-name-text": "Dir musst en Numm vum Formulaire uginn, zum Beispill \"Special:Form/NummvumFormulaire\".",
 	"form-bad-name": "Falschen Numm vum Formulaire",

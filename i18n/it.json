@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Darth Kule"
+			"Darth Kule",
+			"Beta16"
 		]
 	},
 	"form-desc": "Un'[[Special:Form|interfaccia di modulo]] per iniziare nuove pagine",
-	"form": "Modulo",
+	"form": "Inizia una nuova pagina",
 	"form-no-name": "Nessun nome per il modulo",
 	"form-no-name-text": "È necessario fornire un nome per il modulo, come \"Special:Form/Nomedelmodulo\"",
 	"form-bad-name": "Nome modulo errato",
