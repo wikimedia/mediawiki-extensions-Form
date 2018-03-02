@@ -4,16 +4,20 @@
 			"Boivie",
 			"Lejonel",
 			"M.M.S.",
-			"Najami"
+			"Najami",
+			"WikiPhoenix"
 		]
 	},
 	"form-desc": "Ett [[Special:Form|formulär]] för att börja på nya sidor",
-	"form": "Formulär",
+	"form": "Starta en ny sida",
+	"form-captcha-error": "CAPTCHA-fel",
+	"form-pick-form": "Välj den typ av sida du vill skapa via ett formulär.",
 	"form-no-name": "Formulärnamn saknas",
 	"form-no-name-text": "Du måste ange ett formulärnamn på formen \"Special:Form/Formulärnamn\".",
 	"form-bad-name": "Felaktigt formulärnamn",
 	"form-bad-name-text": "Det finns inget formulär med det namnet.",
 	"form-pattern": "$1-formulär",
+	"form-title-pattern": "Lägg till ny $1",
 	"form-save": "Spara",
 	"form-index-mismatch-title": "Namnmönster och mallfel",
 	"form-index-mismatch": "Det här formuläret har opassande namnmönster och mallar som startar på index $1.",

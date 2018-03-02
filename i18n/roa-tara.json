@@ -4,7 +4,9 @@
 			"Joetaras"
 		]
 	},
-	"form": "Module",
+	"form-desc": "'Nu [[Special:Form|module de inderfacce]] pe accumenzà 'na pàgena nove",
+	"form": "Accuminze 'na pàgena nove",
+	"form-captcha-error": "Errore de CAPTCHA",
 	"form-pattern": "$1-form",
 	"form-save": "Reggistre"
 }

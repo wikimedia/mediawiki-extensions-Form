@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bellayet"
+			"Bellayet",
+			"Sandipan"
 		]
 	},
 	"form-desc": "নতুন পাতা শুরু করতে [[Special:Form|ফরম ইন্টারফেস]]",
 	"form": "ফরম",
-	"form-no-name": "কোনো ফরম নাম নাই",
-	"form-bad-name": "মন্দ ফরম নাম",
-	"form-bad-name-text": "এই নামে কোনো ফরম নাই।",
-	"form-pattern": "$1-ফরম",
+	"form-no-name": "কোনো ফর্ম নাম নাই",
+	"form-bad-name": "মন্দ ফর্ম নাম",
+	"form-bad-name-text": "এই নামে কোনো ফর্ম নাই।",
+	"form-pattern": "$1-ফর্ম",
 	"form-save": "সংরক্ষণ",
 	"form-article-exists": "পাতা রয়েছে",
 	"form-bad-page-name": "পাতার মন্দ নাম",
-	"form-save-error": "ফরম সংরক্ষণে ত্রুটি"
+	"form-save-error": "ফর্ম সংরক্ষণে ত্রুটি"
 }
