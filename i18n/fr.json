@@ -7,7 +7,8 @@
 			"McDutchie",
 			"Omnipaedista",
 			"Sherbrooke",
-			"Gomoko"
+			"Gomoko",
+			"Thibaut120094"
 		]
 	},
 	"form-desc": "Une [[Special:Form|interface de formulaire]] pour commencer des nouvelles pages",
@@ -17,7 +18,7 @@
 	"form-no-name": "Aucun nom",
 	"form-no-name-text": "Veuillez spécifier le nom du formulaire, sous la forme « Special:Formulaire/NomDuFormulaire ».",
 	"form-bad-name": "Nom incorrect",
-	"form-bad-name-text": "Le nom choisi pour le formulaire est incorrect. Aucun formulaire n’existe sous ce nom.",
+	"form-bad-name-text": "Aucun formulaire n’existe sous ce nom.",
 	"form-pattern": "formulaire-$1",
 	"form-title-pattern": "Ajouter un nouveau $1",
 	"form-save": "Sauvegarder",
