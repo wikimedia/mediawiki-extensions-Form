@@ -6,6 +6,7 @@
 			"Liuxinyu970226"
 		]
 	},
+	"form-desc": "用于开始新页面的[[Special:Form|表单界面]]",
 	"form": "开始一个新页面",
 	"form-captcha-error": "验证码错误",
 	"form-pick-form": "选择您希望通过表单创建的页面类型。",

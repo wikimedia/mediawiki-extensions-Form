@@ -21,8 +21,8 @@
 	"form-article-exists": "La página existe",
 	"form-article-existstext": "La página [[$1]] ya existe.",
 	"form-bad-page-name": "Nombre de página incorrecto",
-	"form-bad-page-name-text": "Los datos de formulario que ingresó hacen un mal nombre de página, \"$1\".",
-	"form-required-field-error": "Los {{PLURAL:$2|campo $1 es|campos $1 son}} requeridos para este formulario.\nPor favor {{PLURAL:$2|rellénelo|rellénelos}}.",
+	"form-bad-page-name-text": "Los datos que proporcionaste en el formulario constituyen un nombre incorrecto para las páginas, «$1».",
+	"form-required-field-error": "Se {{PLURAL:$2|necesita el campo $1|necesitan los campos $1}} en este formulario.\n{{PLURAL:$2|Complétalo|Complétalos}}.",
 	"form-save-summary": "Página nueva a través del [[Special:Form/$1|formulario $1]]",
 	"form-save-error": "Error al guardar el formulario",
 	"form-save-error-text": "Se produjo un error desconocido al guardar la página «$1»."
