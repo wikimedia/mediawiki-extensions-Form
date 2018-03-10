@@ -10,7 +10,7 @@
 	"form-captcha-error": "CAPTCHA 오류",
 	"form-pick-form": "양식을 통해 만들고자 하는 문서의 유형을 선택하십시오.",
 	"form-no-name": "양식 이름이 없습니다",
-	"form-no-name-text": "\"특수기능:양식/양식이름\"과 같이 양식 이름을 제공해야 합니다.",
+	"form-no-name-text": "\"특수:양식/양식이름\"과 같이 양식 이름을 제공해야 합니다.",
 	"form-bad-name": "잘못된 양식 이름입니다",
 	"form-bad-name-text": "이러한 이름의 양식은 없습니다.",
 	"form-pattern": "$1-양식",

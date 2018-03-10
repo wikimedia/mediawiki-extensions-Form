@@ -4,11 +4,12 @@
 			"Derbeth",
 			"Leinad",
 			"Sp5uhe",
-			"Wpedzich"
+			"Wpedzich",
+			"Chrumps"
 		]
 	},
 	"form-desc": "[[Special:Form|Formularz interfejsu]] do rozpoczynania nowych stron",
-	"form": "Formularz",
+	"form": "Rozpocznij nową stronę",
 	"form-no-name": "Brak nazwy formularza",
 	"form-no-name-text": "Musisz podać nazwę formularza, np. „{{ns:special}}:Formularz/Nazwaformularza”.",
 	"form-bad-name": "Zła nazwa formularza",
