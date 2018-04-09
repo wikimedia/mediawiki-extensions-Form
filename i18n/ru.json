@@ -5,16 +5,20 @@
 			"Rubin",
 			"Александр Сигачёв",
 			"Patrick Star",
-			"Movses"
+			"Movses",
+			"Happy13241"
 		]
 	},
 	"form-desc": "[[Special:Form|Интерфейс]] (в виде формы) для создания новых страниц",
 	"form": "Начать новую страницу",
+	"form-captcha-error": "Ошибка капчи",
+	"form-pick-form": "Выберите тип страницы, которую вы хотите создать через форму.",
 	"form-no-name": "Нет имени формы",
 	"form-no-name-text": "Вы должны указать имя формы, в виде как «Special:Form/Имяформы».",
 	"form-bad-name": "Плохое имя формы",
 	"form-bad-name-text": "Нет формы с таким именем.",
 	"form-pattern": "$1-форма",
+	"form-title-pattern": "Добавить новый $1",
 	"form-save": "Сохранить",
 	"form-index-mismatch-title": "Несоответствие образца и шаблона",
 	"form-index-mismatch": "В этой форме есть несоответствие имени и шаблона в позиции $1.",
