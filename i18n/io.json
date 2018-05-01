@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malafaya"
+			"Malafaya",
+			"Joao Xavier"
 		]
 	},
-	"form-save": "Registragar"
+	"form-save": "Registragar",
+	"form-save-summary": "Nova pagino uzante [[Special:Form/$1|la formulario $1]]"
 }
