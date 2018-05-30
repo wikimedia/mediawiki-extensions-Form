@@ -18,7 +18,7 @@
 	"form-bad-name": "Плохое имя формы",
 	"form-bad-name-text": "Нет формы с таким именем.",
 	"form-pattern": "$1-форма",
-	"form-title-pattern": "Добавить новый $1",
+	"form-title-pattern": "Добавление нового $1",
 	"form-save": "Сохранить",
 	"form-index-mismatch-title": "Несоответствие образца и шаблона",
 	"form-index-mismatch": "В этой форме есть несоответствие имени и шаблона в позиции $1.",
