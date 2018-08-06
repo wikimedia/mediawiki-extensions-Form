@@ -6,11 +6,12 @@
 			"Crt",
 			"Jack Phoenix",
 			"ZeiP",
-			"Pyscowicz"
+			"Pyscowicz",
+			"01miki10"
 		]
 	},
 	"form-desc": "[[Special:Form|Lomake]] uusien sivujen luomiseen",
-	"form": "Lomake",
+	"form": "Aloita uusi sivu",
 	"form-captcha-error": "CAPTCHA-virhe",
 	"form-no-name": "Ei lomakkeen nimeä",
 	"form-no-name-text": "Sinun tulee antaa lomakkeen nimi, kuten \"Special:Form/Lomakkeennimi\".",
