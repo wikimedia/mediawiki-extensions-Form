@@ -4,11 +4,13 @@
 			"Aotake",
 			"Fryed-peach",
 			"Hosiryuhosi",
-			"Shirayuki"
+			"Shirayuki",
+			"Suyama"
 		]
 	},
 	"form-desc": "ページを作成する[[Special:Form|フォーム形式のインターフェイス]]",
 	"form": "フォーム",
+	"form-captcha-error": "CAPTCHA エラー",
 	"form-no-name": "フォーム名がありません",
 	"form-no-name-text": "フォームの名前を決めなければなりません。(例: Special:Form/Nameofform)",
 	"form-bad-name": "正しくないフォーム名",
