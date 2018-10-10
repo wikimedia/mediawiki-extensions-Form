@@ -5,16 +5,20 @@
 			"Leinad",
 			"Sp5uhe",
 			"Wpedzich",
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"form-desc": "[[Special:Form|Formularz interfejsu]] do rozpoczynania nowych stron",
 	"form": "Rozpocznij nową stronę",
+	"form-captcha-error": "Błąd CAPTCHA",
+	"form-pick-form": "Wybierz typ strony, którą chcesz utworzyć przy użyciu formularza.",
 	"form-no-name": "Brak nazwy formularza",
 	"form-no-name-text": "Musisz podać nazwę formularza, np. „{{ns:special}}:Formularz/Nazwaformularza”.",
 	"form-bad-name": "Zła nazwa formularza",
 	"form-bad-name-text": "Brak formularza o takiej nazwie.",
 	"form-pattern": "formularz $1",
+	"form-title-pattern": "Dodaj nowy $1",
 	"form-save": "Zapisz",
 	"form-index-mismatch-title": "Wzorzec nazwy i szablon nie pasują",
 	"form-index-mismatch": "W poniższym zestawieniu znajdują się niepasujące wzorce nazw i szablony, rozpoczynając od indeksu $1.",
