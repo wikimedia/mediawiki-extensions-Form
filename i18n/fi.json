@@ -7,14 +7,15 @@
 			"Jack Phoenix",
 			"ZeiP",
 			"Pyscowicz",
-			"01miki10"
+			"01miki10",
+			"Valtlait"
 		]
 	},
 	"form-desc": "[[Special:Form|Lomake]] uusien sivujen luomiseen",
 	"form": "Aloita uusi sivu",
 	"form-captcha-error": "CAPTCHA-virhe",
 	"form-no-name": "Ei lomakkeen nimeä",
-	"form-no-name-text": "Sinun tulee antaa lomakkeen nimi, kuten \"Special:Form/Lomakkeennimi\".",
+	"form-no-name-text": "Sinun tulee antaa lomakkeen nimi, kuten ”Special:Form/Lomakkeennimi”.",
 	"form-bad-name": "Huono lomakkeen nimi",
 	"form-bad-name-text": "Haluamallasi nimellä ei ole lomaketta.",
 	"form-pattern": "$1-lomake",
@@ -25,7 +26,7 @@
 	"form-article-exists": "Sivu on jo olemassa",
 	"form-article-existstext": "Sivu [[$1]] on jo olemassa.",
 	"form-bad-page-name": "Huono sivun nimi",
-	"form-bad-page-name-text": "Antamasi lomakkeen tiedot tekevät huonon sivun nimen, \"$1\".",
+	"form-bad-page-name-text": "Antamasi lomakkeen tiedot tekevät huonon sivun nimen, ”$1”.",
 	"form-required-field-error": "{{PLURAL:$2|Kenttä $1 on|Kentät $1 ovat}} pakollisia tässä lomakkeessa.\nOle hyvä ja täytä {{PLURAL:$2|se|ne}}.",
 	"form-save-summary": "Uusi sivu käyttäen [[Special:Form/$1]]",
 	"form-save-error": "Virhe lomaketta tallennettaessa",
