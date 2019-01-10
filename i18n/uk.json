@@ -3,16 +3,20 @@
 		"authors": [
 			"Aleksandrit",
 			"Alex Khimich",
-			"Тест"
+			"Тест",
+			"Piramidion"
 		]
 	},
 	"form-desc": "[[Special:Form|Інтерфейс]] (в вигляді форми) для створення нових сторінок",
-	"form": "Форма",
+	"form": "Започаткувати нову сторінку",
+	"form-captcha-error": "Помилка CAPTCHA",
+	"form-pick-form": "Виберіть тип сторінки, яку Ви хочете створити через форму.",
 	"form-no-name": "Немає імені форми",
 	"form-no-name-text": "Ви повинні вказати ім'я форми, наприклад, \"Special:Form/Ім'яформи\".",
 	"form-bad-name": "Невірне ім'я форми",
 	"form-bad-name-text": "З таким ім'ям форми не існує.",
 	"form-pattern": "$1-форма",
+	"form-title-pattern": "Додати нову $1",
 	"form-save": "Зберегти",
 	"form-index-mismatch-title": "Невідповідність зразку та шаблону",
 	"form-index-mismatch": "Ця форма має невідповідність імен моделей та шаблонів, починаючи з індексу $1.",
