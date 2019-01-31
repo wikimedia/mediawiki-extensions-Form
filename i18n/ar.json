@@ -17,7 +17,7 @@
 	"form-bad-name-text": "لا يوجد نموذج بذلك الاسم.",
 	"form-pattern": "$1- نموذج",
 	"form-title-pattern": "أضف $1 جديدا",
-	"form-save": "احفظ",
+	"form-save": "حفظ",
 	"form-index-mismatch-title": "نمط الاسم والقالب لا يتطابقان",
 	"form-index-mismatch": "هذه الاستمارة بها أنماط أسماء وقوالب غير متطابقة بدءا عند الفهرس $1.",
 	"form-article-exists": "الصفحة موجودة",
