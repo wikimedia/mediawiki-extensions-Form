@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erdemaslancan"
+			"Erdemaslancan",
+			"Mirzali"
 		]
 	},
 	"form": "Form",
-	"form-save": "Star ke"
+	"form-save": "Qeyd ke"
 }
