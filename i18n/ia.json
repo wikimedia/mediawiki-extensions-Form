@@ -5,7 +5,7 @@
 		]
 	},
 	"form-desc": "Un [[Special:Form|interfacie de formulario]] pro initiar nove paginas",
-	"form": "Formulario",
+	"form": "Comenciar un nove pagina",
 	"form-no-name": "Nulle nomine del formulario",
 	"form-no-name-text": "Tu debe fornir un nomine pro le formulario, como \"Special:Formulario/NomineDelFormulario\".",
 	"form-bad-name": "Nomine de formulario invalide",
