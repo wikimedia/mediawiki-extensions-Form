@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Siebrand",
-			"Tvdm"
+			"Tvdm",
+			"Xbaked potatox"
 		]
 	},
 	"form-desc": "Een [[Special:Form|formulierinterface]] om nieuwe pagina's te starten",
-	"form": "Formulier",
+	"form": "Een nieuwe pagina starten",
 	"form-no-name": "Geen formuliernaam",
 	"form-no-name-text": "Geef een formuliernaam op, bijvoorbeeld \"Special:Form/Formuliernaam\".",
 	"form-bad-name": "Ongeldige formuliernaam",
