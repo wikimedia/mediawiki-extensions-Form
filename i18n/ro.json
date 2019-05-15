@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Firilacroco",
-			"KlaudiuMihaila"
+			"KlaudiuMihaila",
+			"Andrei Stroe"
 		]
 	},
-	"form": "Formular",
+	"form": "Începe o pagină nouă",
 	"form-no-name": "Niciun nume pentru formular",
 	"form-bad-name": "Nume incorect",
 	"form-save": "Salvează",
