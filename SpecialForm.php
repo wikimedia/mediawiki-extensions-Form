@@ -160,7 +160,7 @@ class SpecialForm extends SpecialPage {
 		$request = $this->getRequest();
 		$user = $this->getUser();
 
-		$self = $this->getTitle( $form->name );
+		$self = $this->getPageTitle( $form->name );
 
 		$out->setPageTitle( $form->title );
 
