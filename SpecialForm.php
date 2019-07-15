@@ -64,7 +64,7 @@ class SpecialForm extends SpecialPage {
 			if ( count( $forms ) ) {
 				$out->addWikiMsg( 'form-pick-form' );
 				foreach ( $forms as $form ) {
-					$out->addWikiText( "* [[Special:Form/{$form}|{$form}]]\n" );
+					$out->addWikiTextAsInterface( "* [[Special:Form/{$form}|{$form}]]\n" );
 				}
 				return;
 			} else {
