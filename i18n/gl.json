@@ -3,16 +3,20 @@
 		"authors": [
 			"Alma",
 			"Toliño",
-			"Xosé"
+			"Xosé",
+			"Banjo"
 		]
 	},
 	"form-desc": "Un [[Special:Form|interface de formulario]] para comezar páxinas novas",
-	"form": "Formulario",
+	"form": "Comezar unha nova páxina",
+	"form-captcha-error": "Erro de CAPTCHA",
+	"form-pick-form": "Escoller o tipo de páxina que desexa crear por medio dun formulario.",
 	"form-no-name": "Formulario sen nome",
 	"form-no-name-text": "Cómpre dar un nome ao formulario, como \"Special:Form/Nomedoformulario\".",
 	"form-bad-name": "Nome de formulario incorrecto",
 	"form-bad-name-text": "Non hai ningún formulario con ese nome.",
 	"form-pattern": "Formulario de $1",
+	"form-title-pattern": "Engadir novo $1",
 	"form-save": "Gardar",
 	"form-index-mismatch-title": "O nome do patrón e o modelo son incompatibles",
 	"form-index-mismatch": "Este formulario ten nomes de patróns e modelos que non coinciden, comezando por $1.",
