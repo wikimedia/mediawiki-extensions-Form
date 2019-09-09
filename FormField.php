@@ -85,9 +85,7 @@ class FormField {
 					Xml::openElement( 'textarea',
 						[
 							'name' => $this->name,
-							'id' => $this->name,
-							'rows' => $this->getOption( 'rows', 6 ),
-							'cols' => $this->getOption( 'cols', 80 )
+							'id' => $this->name
 						]
 					) .
 					( ( is_null( $def ) ) ? '' : $def ) .
