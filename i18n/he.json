@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Rotemliss",
-			"YaronSh"
+			"YaronSh",
+			"Amire80"
 		]
 	},
 	"form-desc": "[[Special:Form|ממשק טופס]] ליצירת דפים חדשים",
@@ -22,5 +23,5 @@
 	"form-required-field-error": "מילוי {{PLURAL:$2|השדה $1|השדות $1}} נדרש להשלמת טופס זה.\nאנא מלאו {{PLURAL:$2|אותו|אותם}}.",
 	"form-save-summary": "דף חדש באמצעות [[Special:Form/$1|טופס $1]]",
 	"form-save-error": "שגיאה בשמירת הטופס",
-	"form-save-error-text": "אירעה שגיאה בלתי ידועה בעת שמירת הדף '$1'."
+	"form-save-error-text": "אירעה שגיאה בלתי־ידועה בעת שמירת הדף \"$1\"."
 }
