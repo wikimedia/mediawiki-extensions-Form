@@ -197,6 +197,11 @@ $specialPageAliases['sr-ec'] = [
 	'Form' => [ 'Образац' ],
 ];
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$specialPageAliases['sr-el'] = [
+	'Form' => [ 'Obrazac' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'Form' => [ 'Formulär' ],
