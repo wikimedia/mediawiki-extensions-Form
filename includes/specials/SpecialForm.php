@@ -236,8 +236,7 @@ class SpecialForm extends SpecialPage {
 			if (
 				$field->isOptionTrue( 'required' ) &&
 				( is_null( $value ) || strlen( $value ) == 0 )
-			)
-			{
+			) {
 				$missedFields[] = $field->label;
 			}
 		}
@@ -311,7 +310,8 @@ class SpecialForm extends SpecialPage {
 
 			if ( $status === false || is_object( $status ) && !$status->isOK() ) {
 				$out->showErrorPage( 'form-save-error', 'form-save-error-text', [ $title ] );
-				return; # Don't continue
+				# Don't continue
+				return;
 			}
 		}
 

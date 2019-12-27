@@ -75,7 +75,7 @@ class FormField {
 	function render( $def = null ) {
 		global $wgOut;
 
-		switch( $this->type ) {
+		switch ( $this->type ) {
 			case 'textarea':
 				return Xml::openElement( 'h2' ) .
 					Xml::element( 'label', [ 'for' => $this->name ], $this->label ) .
