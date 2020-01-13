@@ -3,11 +3,12 @@
 		"authors": [
 			"Rotemliss",
 			"YaronSh",
-			"Amire80"
+			"Amire80",
+			"Ghsuvr"
 		]
 	},
 	"form-desc": "[[Special:Form|ממשק טופס]] ליצירת דפים חדשים",
-	"form": "טופס",
+	"form": "להתחיל דף חדש",
 	"form-no-name": "אין שם לטופס",
 	"form-no-name-text": "עליכם לספק שם לטופס, כגון \"Special:Form/Nameofform\".",
 	"form-bad-name": "שם הטופס אינו תקין",

@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Luky001"
 		]
 	},
 	"form-desc": "[[Special:Form|Formulárové rozhranie]] na zakladanie nových stránok",
-	"form": "Formulár",
+	"form": "Založiť novú stránku",
 	"form-no-name": "Nezadali ste názov formulára",
 	"form-no-name-text": "Musíte zadať názov formulára v tvare „Special:Form/Názovformulára“",
 	"form-bad-name": "Chybný názov formulára",
