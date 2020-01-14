@@ -164,7 +164,7 @@ class SpecialForm extends SpecialPage {
 
 		$out->setPageTitle( $form->title );
 
-		if ( !is_null( $form->instructions ) ) {
+		if ( $form->instructions !== null ) {
 			$out->addHTML(
 				Xml::openElement( 'div', [ 'class' => 'instructions' ] ) .
 				$out->parse( $form->instructions ) .
@@ -173,7 +173,7 @@ class SpecialForm extends SpecialPage {
 			);
 		}
 
-		if ( !is_null( $errMsg ) ) {
+		if ( $errMsg !== null ) {
 			$out->addHTML(
 				Xml::openElement( 'div', [ 'class' => 'error' ] ) .
 				$out->parse( $errMsg ) .
@@ -235,7 +235,7 @@ class SpecialForm extends SpecialPage {
 			$value = $request->getText( $name );
 			if (
 				$field->isOptionTrue( 'required' ) &&
-				( is_null( $value ) || strlen( $value ) == 0 )
+				( $value === null || strlen( $value ) == 0 )
 			) {
 				$missedFields[] = $field->label;
 			}
@@ -394,7 +394,7 @@ class SpecialForm extends SpecialPage {
 	}
 
 	/**
-	 * @return boolean True if CAPTCHA should be used, false otherwise
+	 * @return bool True if CAPTCHA should be used, false otherwise
 	 */
 	private function useCaptcha() {
 		global $wgCaptchaClass, $wgCaptchaTriggers;

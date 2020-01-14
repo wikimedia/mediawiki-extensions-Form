@@ -88,7 +88,7 @@ class FormField {
 							'id' => $this->name
 						]
 					) .
-					( ( is_null( $def ) ) ? '' : $def ) .
+					( ( $def === null ) ? '' : $def ) .
 					Xml::closeElement( 'textarea' );
 			break;
 			case 'text':
@@ -98,7 +98,7 @@ class FormField {
 							'type' => 'text',
 							'name' => $this->name,
 							'id' => $this->name,
-							'value' => ( ( is_null( $def ) ) ? '' : $def ),
+							'value' => ( ( $def === null ) ? '' : $def ),
 							'size' => $this->getOption( 'size', 30 )
 						]
 					);
