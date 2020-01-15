@@ -167,7 +167,7 @@ class SpecialForm extends SpecialPage {
 		if ( $form->instructions !== null ) {
 			$out->addHTML(
 				Xml::openElement( 'div', [ 'class' => 'instructions' ] ) .
-				$out->parse( $form->instructions ) .
+				$out->parseAsInterface( $form->instructions ) .
 				Xml::closeElement( 'div' ) .
 				Xml::element( 'br' )
 			);
@@ -176,7 +176,7 @@ class SpecialForm extends SpecialPage {
 		if ( $errMsg !== null ) {
 			$out->addHTML(
 				Xml::openElement( 'div', [ 'class' => 'error' ] ) .
-				$out->parse( $errMsg ) .
+				$out->parseAsInterface( $errMsg ) .
 				Xml::closeElement( 'div' ) .
 				Xml::element( 'br' )
 			);

@@ -81,7 +81,7 @@ class FormField {
 					Xml::element( 'label', [ 'for' => $this->name ], $this->label ) .
 					Xml::closeElement( 'h2' ) .
 					( ( $this->description ) ?
-					( Xml::openElement( 'div' ) . $wgOut->parse( $this->description ) . Xml::closeElement( 'div' ) ) : '' ) .
+					( Xml::openElement( 'div' ) . $wgOut->parseAsContent( $this->description ) . Xml::closeElement( 'div' ) ) : '' ) .
 					Xml::openElement( 'textarea',
 						[
 							'name' => $this->name,
