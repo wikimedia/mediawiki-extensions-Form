@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"form-desc": "E [[Special:Form|Formulaire]] fir nei Säiten unzefänken",
@@ -21,7 +22,7 @@
 	"form-article-existstext": "D'Säit [[$1]] gëtt et schonn.",
 	"form-bad-page-name": "Falsche Säitennumm",
 	"form-bad-page-name-text": "Déi Donnéeën déi Dir an de Formulaire aginn hutt erginn e Säitennumm, den net ka gespäichert ginn: \"$1\".",
-	"form-required-field-error": "D'{{PLURAL:$2|Feld $1 muss|Felder $1 mussen}} an dësem Formulaire ausgefëllt ginn.\nFëllt {{PLURAL:$2|et|se}} w.e.g. aus.",
+	"form-required-field-error": "D'{{PLURAL:$2|Feld $1 muss|Felder $1 mussen}} an dësem Formulaire ausgefëllt ginn.\nFëllt {{PLURAL:$2|et|se}} wgl. aus.",
 	"form-save-summary": "Nei Säit, déi de [[Special:Form/$1|Formulaire $1]] benotzt",
 	"form-save-error": "Feeler beim Späichere vum Formulaire",
 	"form-save-error-text": "Et gouf een onbekannte Feeler beim Späichere vun der Säit '$1'."
