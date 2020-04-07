@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kly",
 			"Liangent",
-			"Wrightbus",
-			"Kly"
+			"Wrightbus"
 		]
 	},
 	"form-desc": "用來產生新頁面的[[Special:Form|表單介面]]。",

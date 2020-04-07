@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Happy13241",
 			"Innv",
-			"Rubin",
-			"Александр Сигачёв",
-			"Patrick Star",
 			"Movses",
-			"Happy13241"
+			"Patrick Star",
+			"Rubin",
+			"Александр Сигачёв"
 		]
 	},
 	"form-desc": "[[Special:Form|Интерфейс]] (в виде формы) для создания новых страниц",
