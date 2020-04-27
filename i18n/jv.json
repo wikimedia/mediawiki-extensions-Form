@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Meursault2004",
+			"NoiX180",
 			"Pras"
 		]
 	},
 	"form-desc": "Sawijining [[Special:Form|antarmuka formulir]] kanggo miwiti kaca-kaca anyar",
-	"form": "Formulir",
+	"form": "Wiwiti kaca anyar",
 	"form-no-name": "Ora ana jeneng formulir",
 	"form-no-name-text": "Panjenengan kudu maringi jeneng formulir, kaya \"Special:Form/Nameofform\".",
 	"form-bad-name": "Jeneng formulir ala",
