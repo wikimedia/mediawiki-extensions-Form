@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"Meursault2004",
 			"NoiX180",
 			"Pras"
 		]
 	},
-	"form-desc": "Sawijining [[Special:Form|antarmuka formulir]] kanggo miwiti kaca-kaca anyar",
+	"form-desc": "Sawijining [[Special:Form|mukantara formulir]] kanggo miwiti kaca-kaca anyar",
 	"form": "Wiwiti kaca anyar",
 	"form-no-name": "Ora ana jeneng formulir",
 	"form-no-name-text": "Panjenengan kudu maringi jeneng formulir, kaya \"Special:Form/Nameofform\".",
@@ -15,7 +16,7 @@
 	"form-pattern": "Formulir-$1",
 	"form-save": "Simpen",
 	"form-index-mismatch-title": "Pola jeneng lan cithakan ora cocog",
-	"form-index-mismatch": "Ing formulir iki ora cocog antara pola jeneng lan cithakan miwiti ing indèks $1.",
+	"form-index-mismatch": "Ing formulir iki ora cocog antara pola jeneng lan cithakan miwiti ing indhèks $1.",
 	"form-article-exists": "Kacané ana",
 	"form-article-existstext": "Kaca [[$1]] wis ana.",
 	"form-bad-page-name": "Jeneng kaca ala",

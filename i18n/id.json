@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"Irwangatot",
 			"IvanLanin"
 		]
 	},
 	"form-desc": "Suatu [[Special:Form|antarmuka formulir]] untuk membuat halaman baru",
-	"form": "Formulir",
+	"form": "Mulai halaman baru",
 	"form-no-name": "Nama formulir kosong",
 	"form-no-name-text": "Anda harus memasukkan nama formulir seperti \"Special:Form/Namaformulir\".",
 	"form-bad-name": "Nama formulir salah",
