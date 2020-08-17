@@ -14,6 +14,7 @@
 	"form-desc": "[[Special:Form|Lomake]] uusien sivujen luomiseen",
 	"form": "Aloita uusi sivu",
 	"form-captcha-error": "CAPTCHA-virhe",
+	"form-pick-form": "Valitse luotavan sivun tyyppi.",
 	"form-no-name": "Ei lomakkeen nimeä",
 	"form-no-name-text": "Sinun tulee antaa lomakkeen nimi, kuten ”Special:Form/Lomakkeennimi”.",
 	"form-bad-name": "Huono lomakkeen nimi",
