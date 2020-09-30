@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Daud I.F. Argana",
 			"Diki Ananta",
 			"Irwangatot",
 			"IvanLanin",
@@ -9,11 +10,14 @@
 	},
 	"form-desc": "Suatu [[Special:Form|antarmuka formulir]] untuk membuat halaman baru",
 	"form": "Mulai halaman baru",
+	"form-captcha-error": "Galat CAPTCHA",
+	"form-pick-form": "Pilih tipe halaman yang ingin Anda buat melalui formulir.",
 	"form-no-name": "Nama formulir kosong",
 	"form-no-name-text": "Anda harus memasukkan nama formulir seperti \"Special:Form/Namaformulir\".",
 	"form-bad-name": "Nama formulir salah",
 	"form-bad-name-text": "Tidak ada formulir dengan nama itu.",
 	"form-pattern": "$1-form",
+	"form-title-pattern": "Tambahkan $1 baru",
 	"form-save": "Simpan",
 	"form-index-mismatch-title": "Pola nama dan templat tidak cocok",
 	"form-index-mismatch": "Formulir ini tidak cocok dengan pola nama dan templat dimulai dari indeks $1.",
