@@ -90,7 +90,6 @@ class FormField {
 					) .
 					( ( $def === null ) ? '' : $def ) .
 					Xml::closeElement( 'textarea' );
-			break;
 			case 'text':
 				return Xml::element( 'label', [ 'for' => $this->name ], $this->label ) . wfMessage( 'colon-separator' )->text() .
 					Xml::element( 'input',
@@ -102,7 +101,6 @@ class FormField {
 							'size' => $this->getOption( 'size', 30 )
 						]
 					);
-			break;
 			case 'checkbox':
 				$attrs = [
 					'type' => 'checkbox',
@@ -114,7 +112,6 @@ class FormField {
 				}
 				return Xml::element( 'label', [ 'for' => $this->name ], $this->label ) . wfMessage( 'colon-separator' )->text() .
 					Xml::element( 'input', $attrs );
-			break;
 			case 'radio':
 				$items = [];
 				$rawItems = explode( ';', $this->getOption( 'items' ) );
@@ -131,7 +128,6 @@ class FormField {
 						Xml::element( 'label', null, $item );
 				}
 				return Xml::element( 'span', null, $this->label ) . Xml::element( 'br' ) . implode( '', $items );
-			break;
 			case 'select':
 				$items = [];
 				$rawItems = explode( ';', $this->getOption( 'items' ) );
@@ -147,7 +143,6 @@ class FormField {
 					Xml::openElement( 'select', [ 'name' => $this->name, 'id' => $this->name ] ) .
 					implode( '', $items ) .
 					Xml::closeElement( 'select' );
-			break;
 			default:
 				wfDebug( __METHOD__ . ": unknown form field type '$this->type', skipping.\n" );
 				return '';
