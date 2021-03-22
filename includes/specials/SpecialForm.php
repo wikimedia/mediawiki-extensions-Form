@@ -350,7 +350,7 @@ class SpecialForm extends SpecialPage {
 	 * @return bool True if all checks passed, otherwise false
 	 */
 	private function checkSave( $nt, $text ) {
-		global $wgSpamRegex, $wgFilterCallback, $wgMaxArticleSize;
+		global $wgSpamRegex, $wgMaxArticleSize;
 
 		$out = $this->getOutput();
 		$user = $this->getUser();
@@ -362,9 +362,6 @@ class SpecialForm extends SpecialPage {
 
 		# FIXME: more specific errors, copied from EditPage.php
 		if ( $wgSpamRegex && preg_match( $wgSpamRegex, $text, $matches ) ) {
-			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
-			return false;
-		} elseif ( $wgFilterCallback && $wgFilterCallback( $nt, $text, 0 ) ) {
 			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
 			return false;
 		} elseif ( !Hooks::run( 'EditFilter', [ $editPage, $text, 0, &$errorText, $editSummary ] ) ) {
