@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * Form extension -- Use a form-based interface to start new articles
  * Copyright 2007 Vinismo, Inc. (http://vinismo.com/)
@@ -359,7 +362,7 @@ class SpecialForm extends SpecialPage {
 		$editSummary = '';
 
 		$editPage = new FakeEditPage( $nt );
-
+		$userPermissionManager = MediaWikiServices::getInstance()->getPermissionManager();
 		# FIXME: more specific errors, copied from EditPage.php
 		if ( $wgSpamRegex && preg_match( $wgSpamRegex, $text, $matches ) ) {
 			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
@@ -370,7 +373,7 @@ class SpecialForm extends SpecialPage {
 		} elseif ( $errorText != '' ) {
 			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
 			return false;
-		} elseif ( $user->isBlockedFrom( $nt, false ) ) {
+		} elseif ( $userPermissionManager->isBlockedFrom( $user, $nt ) ) {
 			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
 			return false;
 		} elseif ( (int)( strlen( $text ) / 1024 ) > $wgMaxArticleSize ) {
