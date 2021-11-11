@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Aushulz"
 		]
 	},
-	"form-save": "Sarva"
+	"form-captcha-error": "Erruri CAPTCHA",
+	"form-save": "Sarva",
+	"form-article-exists": "La pàggina esisti",
+	"form-article-existstext": "La pàggina [[$1]] già esisti."
 }
