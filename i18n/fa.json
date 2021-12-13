@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mjbmr"
+			"Mjbmr",
+			"Jeeputer"
 		]
 	},
-	"form": "فرم"
+	"form": "آغاز یک صفحهٔ تازه",
+	"form-title-pattern": "افزودن یک $1 تازه",
+	"form-save": "ذخیره",
+	"form-article-exists": "صفحه موجود است",
+	"form-article-existstext": "صفحهٔ [[$1]] از پیش موجود است.",
+	"form-bad-page-name": "نام نامناسب صفحه"
 }

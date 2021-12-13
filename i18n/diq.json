@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Mirzali"
+			"Mirzali",
+			"1917 Ekim Devrimi"
 		]
 	},
-	"form": "Form",
+	"form": "Pela newiye kewe",
+	"form-pattern": "$1-form",
 	"form-save": "Qeyd ke"
 }

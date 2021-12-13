@@ -5,11 +5,12 @@
 			"Fryed-peach",
 			"Hosiryuhosi",
 			"Shirayuki",
-			"Suyama"
+			"Suyama",
+			"つぶあん派"
 		]
 	},
 	"form-desc": "ページを作成する[[Special:Form|フォーム形式のインターフェイス]]",
-	"form": "フォーム",
+	"form": "新しい編集を開始",
 	"form-captcha-error": "CAPTCHA エラー",
 	"form-no-name": "フォーム名がありません",
 	"form-no-name-text": "フォームの名前を決めなければなりません。(例: Special:Form/Nameofform)",

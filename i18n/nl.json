@@ -4,7 +4,8 @@
 			"Mainframe98",
 			"Siebrand",
 			"Tvdm",
-			"Xbaked potatox"
+			"Xbaked potatox",
+			"Romaine"
 		]
 	},
 	"form-desc": "Een [[Special:Form|formulierinterface]] om nieuwe pagina's te starten",
@@ -15,6 +16,7 @@
 	"form-bad-name": "Ongeldige formuliernaam",
 	"form-bad-name-text": "Er bestaat geen formulier met die naam.",
 	"form-pattern": "$1-formulier",
+	"form-title-pattern": "Voeg nieuw $1 toe",
 	"form-save": "Opslaan",
 	"form-index-mismatch-title": "Naampatroon- en sjabloonmismatch",
 	"form-index-mismatch": "Dit formulier heeft ongekoppelde naampatronen en sjablonen vanaf index $1.",
