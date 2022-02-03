@@ -362,7 +362,8 @@ class SpecialForm extends SpecialPage {
 		$editSummary = '';
 
 		$editPage = new FakeEditPage( $nt );
-		$userPermissionManager = MediaWikiServices::getInstance()->getPermissionManager();
+		$services = MediaWikiServices::getInstance();
+		$userPermissionManager = $services->getPermissionManager();
 		# FIXME: more specific errors, copied from EditPage.php
 		if ( $wgSpamRegex && preg_match( $wgSpamRegex, $text, $matches ) ) {
 			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
@@ -382,7 +383,7 @@ class SpecialForm extends SpecialPage {
 		} elseif ( !$user->isAllowed( 'edit' ) ) {
 			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
 			return false;
-		} elseif ( wfReadOnly() ) {
+		} elseif ( $services->getReadOnlyMode()->isReadOnly() ) {
 			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
 			return false;
 		} elseif ( $user->pingLimiter() ) {
