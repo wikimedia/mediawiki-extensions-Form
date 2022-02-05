@@ -122,7 +122,7 @@ class SpecialForm extends SpecialPage {
 			__METHOD__
 		);
 		$forms = [];
-		if ( $dbr->numRows( $res ) === 0 ) {
+		if ( $res->numRows() === 0 ) {
 			return $forms;
 		}
 		// can't reuse $patternMsg here because $1 will have been replaced by %
