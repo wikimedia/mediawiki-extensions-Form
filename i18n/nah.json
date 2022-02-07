@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fluence"
+			"Fluence",
+			"Languaeditor"
 		]
 	},
-	"form-save": "Ticpiyāz",
+	"form-save": "Xikpiya",
 	"form-article-exists": "Zāzanilli ia",
 	"form-article-existstext": "Zāzanilli [[$1]] ye ia.",
 	"form-bad-page-name": "Ahcualli zāzaniltōcāitl"
