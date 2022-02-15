@@ -8,7 +8,8 @@
 			"McDutchie",
 			"Omnipaedista",
 			"Sherbrooke",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Verdy p"
 		]
 	},
 	"form-desc": "Une [[Special:Form|interface de formulaire]] pour commencer des nouvelles pages",
@@ -21,7 +22,7 @@
 	"form-bad-name-text": "Aucun formulaire n’existe sous ce nom.",
 	"form-pattern": "formulaire-$1",
 	"form-title-pattern": "Ajouter un nouveau $1",
-	"form-save": "Sauvegarder",
+	"form-save": "Enregistrer",
 	"form-index-mismatch-title": "Inadéquation entre la palette de nom et le modèle",
 	"form-index-mismatch": "Ce formulaire a des patrons et des modèles qui ne correspondent pas à partir de $1.",
 	"form-article-exists": "La page existe déjà.",
