@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AwamerT",
+			"FiberAhmed",
 			"Meno25",
 			"OsamaK",
 			"ديفيد"
@@ -13,7 +14,7 @@
 	"form-pick-form": "اختر نوع الصفحة التي تريد إنشاءها من خلال نموذج.",
 	"form-no-name": "لا يوجد اسم نموذج",
 	"form-no-name-text": "يجب توفير اسم للنموذج، مثل \"Special:Form/Nameofform\".",
-	"form-bad-name": "اسم نموذج سيء",
+	"form-bad-name": "اسم نموذج سيئ",
 	"form-bad-name-text": "لا يوجد نموذج بذلك الاسم.",
 	"form-pattern": "$1- نموذج",
 	"form-title-pattern": "أضف $1 جديدا",
@@ -22,7 +23,7 @@
 	"form-index-mismatch": "هذه الاستمارة بها أنماط أسماء وقوالب غير متطابقة بدءا عند الفهرس $1.",
 	"form-article-exists": "الصفحة موجودة",
 	"form-article-existstext": "الصفحة [[$1]] موجودة بالفعل.",
-	"form-bad-page-name": "اسم صفحة سيء",
+	"form-bad-page-name": "اسم صفحة سيئ",
 	"form-bad-page-name-text": "بيانات الاستمارة التي أدخلتها تصنع اسم صفحة سيئا، \"$1\".",
 	"form-required-field-error": "{{PLURAL:$2||الحقل $1 مطلوب|الحقلان $1 مطلوبان|الحقول $1 مطلوبة}} لهذه الاستمارة.\nمن فضلك {{PLURAL:$2||املأه|املأهما|املأها}}.",
 	"form-save-summary": "صفحة جديدة باستخدام [[Special:Form/$1|الاستمارة $1]]",
