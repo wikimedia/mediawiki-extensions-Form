@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Crazymadlover",
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Imre",
 			"Sanbec"
@@ -15,6 +16,7 @@
 	"form-bad-name": "Nombre de formulario incorrecto",
 	"form-bad-name-text": "No existe ningún formulario con ese nombre.",
 	"form-pattern": "Formulario de $1",
+	"form-title-pattern": "Añadir nuevo $1",
 	"form-save": "Guardar",
 	"form-index-mismatch-title": "No se corresponde el nombre del modelo y la plantilla",
 	"form-index-mismatch": "Este formulario tiene nombres de patrones y plantillas que no coinciden, comenzando por $1.",
