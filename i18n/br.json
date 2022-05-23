@@ -3,11 +3,12 @@
 		"authors": [
 			"Fohanno",
 			"Fulup",
+			"Huñvreüs",
 			"Y-M D"
 		]
 	},
 	"form-desc": "Un [[Special:Form|etrefas furmskrid]] evit kregiñ gant pajennoù nevez",
-	"form": "Furmskrid",
+	"form": "Kregiñ gant ur bajenn nevez",
 	"form-no-name": "Anv ebet",
 	"form-no-name-text": "Roit anv ar furmskrid, gant ar stumm \"Ispisial:Furmskrid/AnvArFurmskrid\".",
 	"form-bad-name": "Anv furmskrid fall",
