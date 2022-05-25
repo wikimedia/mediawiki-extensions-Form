@@ -305,11 +305,21 @@ class SpecialForm extends SpecialPage {
 
 			$page = WikiPage::factory( $nt[$i] );
 
-			$status = $page->doEditContent(
-				ContentHandler::makeContent( $text, $page->getTitle() ),
-				$this->msg( 'form-save-summary', $form->name )->text(),
-				EDIT_NEW
-			);
+			if ( method_exists( $page, 'doUserEditContent' ) ) {
+				// MW 1.36+
+				$status = $page->doUserEditContent(
+					ContentHandler::makeContent( $text, $page->getTitle() ),
+					$this->getUser(),
+					$this->msg( 'form-save-summary', $form->name )->text(),
+					EDIT_NEW
+				);
+			} else {
+				$status = $page->doEditContent(
+					ContentHandler::makeContent( $text, $page->getTitle() ),
+					$this->msg( 'form-save-summary', $form->name )->text(),
+					EDIT_NEW
+				);
+			}
 
 			if ( $status === false || is_object( $status ) && !$status->isOK() ) {
 				$out->showErrorPage( 'form-save-error', 'form-save-error-text', [ $title ] );
