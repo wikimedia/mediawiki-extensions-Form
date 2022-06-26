@@ -151,7 +151,12 @@ class SpecialForm extends SpecialPage {
 			return null;
 		}
 
-		$page = new WikiPage( $nt );
+		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+			// MW 1.36+
+			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $nt );
+		} else {
+			$page = new WikiPage( $nt );
+		}
 		$text = $page->getContent()->getNativeData();
 
 		# Form constructor does the parsing
@@ -281,6 +286,12 @@ class SpecialForm extends SpecialPage {
 			}
 		}
 
+		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+			// MW 1.36+
+			$wikiPageFactory = MediaWikiServices::getInstance()->getWikiPageFactory();
+		} else {
+			$wikiPageFactory = null;
+		}
 		# At this point, all $nt titles should be valid, although we're subject to race conditions.
 		for ( $i = 0; $i < count( $form->template ); $i++ ) {
 			$template = $form->template[$i];
@@ -303,7 +314,12 @@ class SpecialForm extends SpecialPage {
 
 			wfDebug( __METHOD__ . ": saving article with index '$i' and title '$title'\n" );
 
-			$page = WikiPage::factory( $nt[$i] );
+			if ( $wikiPageFactory !== null ) {
+				// MW 1.36+
+				$page = $wikiPageFactory->newFromTitle( $nt[$i] );
+			} else {
+				$page = WikiPage::factory( $nt[$i] );
+			}
 
 			if ( method_exists( $page, 'doUserEditContent' ) ) {
 				// MW 1.36+
