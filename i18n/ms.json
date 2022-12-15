@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Izzudin"
+			"Izzudin",
+			"Tofeiku"
 		]
 	},
 	"form-desc": "Sebuah [[Special:Form|antara muka borang]] untuk mulakan halaman baru",
-	"form": "Borang",
+	"form": "Mula laman baru",
 	"form-no-name": "Borang tanpa nama",
 	"form-no-name-text": "Anda perlu meletakkan nama borang, seperti \"Special:Form/Namaborang\".",
 	"form-bad-name": "Nama borang tidak sesuai",
