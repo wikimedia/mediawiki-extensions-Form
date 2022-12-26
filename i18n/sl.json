@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
-	"form-save": "Shrani"
+	"form-save": "Shrani",
+	"form-save-error-text": "Pri shranjevanju strani »$1« je prišlo do neznane napake."
 }
