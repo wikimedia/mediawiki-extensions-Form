@@ -5,7 +5,25 @@
 			"Eleassar"
 		]
 	},
+	"form-desc": "[[Special:Form|Vmesnik obrazca]] za začenjanje novih strani",
+	"form": "Začni novo stran",
+	"form-captcha-error": "Napaka CAPTCHA",
+	"form-pick-form": "Izberite vrsto strani, ki jo želite ustvariti z obrazcem.",
+	"form-no-name": "Brez imena obrazca",
+	"form-no-name-text": "Določiti morate ime obrazca, npr. »{{#special:Form}}/Ime obrazca«.",
+	"form-bad-name": "Nedovoljeno ime obrazca",
+	"form-bad-name-text": "Obrazec s tem imenom ne obstaja.",
+	"form-pattern": "Obrazec $1",
+	"form-title-pattern": "Dodaj nov $1",
 	"form-save": "Shrani",
+	"form-index-mismatch-title": "Neujemanje vzorca imena in predloge",
+	"form-index-mismatch": "Ta obrazec ima neujemajoče se vzorce imen in predloge, ki se začnejo pri indeksu $1.",
+	"form-article-exists": "Stran obstaja",
+	"form-article-existstext": "Stran [[$1]] že obstaja.",
+	"form-bad-page-name": "Nedovoljeno ime strani",
+	"form-bad-page-name-text": "Podatki obrazca, ki ste jih vnesli, tvorijo nedovoljeno ime strani »$1«.",
+	"form-required-field-error": "Za ta obrazec {{PLURAL:$2|je potrebno polje $1|sta potrebni polji $1|so potrebna polja $1}}.\nIzpolnite {{PLURAL:$2|ga|ju|jih}}.",
+	"form-save-summary": "Nova stran na podlagi [[Special:Form/$1|obrazca $1]]",
 	"form-save-error": "Napaka pri shranjevanju obrazca",
 	"form-save-error-text": "Pri shranjevanju strani »$1« je prišlo do neznane napake."
 }
