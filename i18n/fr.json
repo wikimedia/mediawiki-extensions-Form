@@ -12,7 +12,7 @@
 			"Verdy p"
 		]
 	},
-	"form-desc": "Une [[Special:Form|interface de formulaire]] pour commencer des nouvelles pages",
+	"form-desc": "Une [[Special:Form|interface de formulaire]] pour commencer de nouvelles pages",
 	"form": "Commencer une nouvelle page",
 	"form-captcha-error": "Erreur de CAPTCHA",
 	"form-pick-form": "Choisir le type de page que vous voulez créer via un formulaire.",
