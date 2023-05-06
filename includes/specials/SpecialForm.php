@@ -394,7 +394,7 @@ class SpecialForm extends SpecialPage {
 		if ( $wgSpamRegex && preg_match( $wgSpamRegex, $text, $matches ) ) {
 			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
 			return false;
-		} elseif ( !Hooks::run( 'EditFilter', [ $editPage, $text, 0, &$errorText, $editSummary ] ) ) {
+		} elseif ( !$this->getHookContainer()->run( 'EditFilter', [ $editPage, $text, 0, &$errorText, $editSummary ] ) ) {
 			# Hooks usually print their own error
 			return false;
 		} elseif ( $errorText != '' ) {
