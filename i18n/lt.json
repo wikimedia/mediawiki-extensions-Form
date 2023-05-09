@@ -1,9 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nokeoo",
 			"Tomasdd"
 		]
 	},
+	"form-desc": "[[Special:Form|formos sąsaja]] naujiems puslapiams pradėti",
 	"form": "Pradėti naują puslapį",
-	"form-bad-name": "Netinkamas formos pavadinimas"
+	"form-captcha-error": "CAPTCHA klaida",
+	"form-pick-form": "Pasirinkite puslapio, kurį norite sukurti naudodami formą, tipą.",
+	"form-no-name": "Nėra formos pavadinimo",
+	"form-no-name-text": "Turite pateikti formos pavadinimą, pvz., „Special:Form/Nameofform“.",
+	"form-bad-name": "Netinkamas formos pavadinimas",
+	"form-bad-name-text": "Formos tokiu pavadinimu nėra.",
+	"form-pattern": "$1-forma",
+	"form-title-pattern": "Pridėti naują $1",
+	"form-save": "Išsaugoti",
+	"form-index-mismatch-title": "Pavadinimo modelio ir šablono neatitikimas",
+	"form-index-mismatch": "Šioje formoje yra nesutampančių vardų modelių ir šablonų, prasidedančių indeksu $1.",
+	"form-article-exists": "Puslapis egzistuoja",
+	"form-article-existstext": "Puslapis [[$1]] jau egzistuoja.",
+	"form-bad-page-name": "Blogas puslapio pavadinimas",
+	"form-bad-page-name-text": "Jūsų įvesti duomenys sudaro blogą puslapio pavadinimą, „$1“.",
+	"form-required-field-error": "{{PLURAL:$2|laukas $1 yra|laukai $1 yra}} būtini šiai formai.\nUžpildykite {{PLURAL:$2|jį|juos}}.",
+	"form-save-summary": "Naujas puslapis naudojant [[Special:Form/$1|forma $1]]",
+	"form-save-error": "Klaida išsaugant formą",
+	"form-save-error-text": "Išsaugant puslapį „$1“ įvyko nežinoma klaida."
 }
