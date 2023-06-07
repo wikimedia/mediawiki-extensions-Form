@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Jojit fb"
 		]
 	},
 	"form-desc": "Isang [[Special:Form|ugnayang-hangganan ng pormularyo]] upang makapagsimula ng bagong mga pahina",
-	"form": "Pormularyo",
+	"form": "Magsimula ng isang bagong pahina",
 	"form-no-name": "Walang pangalan ng pormularyo",
 	"form-no-name-text": "Dapat kang magbigay ng isang pangalan ng pormularyo, katulad ng \"Special:Form/Pangalanngpormularyo\".",
 	"form-bad-name": "Masamang pangalan ng pormularyo",
