@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"form-no-name-text": "You must provide a form name, like 'Special:Form/Nameofform'.",
+	"form-bad-page-name-text": "The form data you entered makes a bad page name, '$1'."
+}
