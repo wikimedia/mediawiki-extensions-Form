@@ -5,12 +5,14 @@
 			"Romaine",
 			"Siebrand",
 			"Tvdm",
-			"Xbaked potatox"
+			"Xbaked potatox",
+			"McDutchie"
 		]
 	},
 	"form-desc": "Een [[Special:Form|formulierinterface]] om nieuwe pagina's te starten",
 	"form": "Een nieuwe pagina starten",
 	"form-captcha-error": "CAPTCHA-fout",
+	"form-pick-form": "Kies het type pagina dat u via een formulier wilt aanmaken.",
 	"form-no-name": "Geen formuliernaam",
 	"form-no-name-text": "Geef een formuliernaam op, bijvoorbeeld \"Special:Form/Formuliernaam\".",
 	"form-bad-name": "Ongeldige formuliernaam",
