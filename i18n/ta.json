@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fahimrazick",
 			"Karthi.dr",
 			"TRYPPN"
 		]
@@ -14,5 +15,5 @@
 	"form-article-existstext": " பக்கம் [[$1]] ஏற்கனவே உள்ளது.",
 	"form-bad-page-name": "மோசமான பக்கப் பெயர்",
 	"form-save-error": "படிவத்தைச் சேமிப்பதில் பிழை",
-	"form-save-error-text": "'$1' பக்கத்தைச் சேமிப்பதில் அறியப்படாத ஒரு தவறு நேர்ந்தது."
+	"form-save-error-text": "'$1' பக்கத்தைச் சேமிப்பதில் தெரியாத ஒரு தவறு இருந்தது."
 }
