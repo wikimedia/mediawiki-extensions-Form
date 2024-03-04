@@ -5,7 +5,8 @@
 			"Jon Harald Søby",
 			"Purodha",
 			"Raymond",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Amire80"
 		]
 	},
 	"form-desc": "{{desc|name=Form|url=https://www.mediawiki.org/wiki/Extension:Form}}",
@@ -26,7 +27,7 @@
 	"form-article-existstext": "form-article-exists",
 	"form-bad-page-name": "Used as page title",
 	"form-bad-page-name-text": "An error message",
-	"form-required-field-error": "An error message\n* $1 is a comma separated list of missing fields\n* $2 is the number of missing fields",
+	"form-required-field-error": "An error message\n* $1 is a comma-separated list of missing fields\n* $2 is the number of missing fields",
 	"form-save-summary": "An edit summary",
 	"form-save-error": "Used as page title",
 	"form-save-error-text": "An error message"
