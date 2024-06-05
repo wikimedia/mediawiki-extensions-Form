@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			555,
 			"Eduardo Addad de Oliveira",
 			"Eduardo.mps",
 			"Eduardoaddad",
-			"Malafaya",
-			555
+			"Malafaya"
 		]
 	},
 	"form-desc": "Uma [[Special:Form|interface em formulário]] para criar novas páginas",
