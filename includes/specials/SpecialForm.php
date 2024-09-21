@@ -103,7 +103,7 @@ class SpecialForm extends SpecialPage {
 	 * @return array Array of form names suitable to be used on Special:Form
 	 */
 	private function getAllForms() {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		// It Works On My Setup™
 		// Sucks for you, users of alternative DBMSes.
 		// I genuinely tried using $dbr->anyString() and $dbr->buildLike() here,
