@@ -337,7 +337,7 @@ class SpecialForm extends SpecialPage {
 				);
 			}
 
-			if ( $status === false || is_object( $status ) && !$status->isOK() ) {
+			if ( $status === false || ( is_object( $status ) && !$status->isOK() ) ) {
 				$out->showErrorPage( 'form-save-error', 'form-save-error-text', [ $title ] );
 				# Don't continue
 				return;
