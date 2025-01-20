@@ -6,12 +6,13 @@
 			"Meno25",
 			"OsamaK",
 			"أَحمد",
-			"ديفيد"
+			"ديفيد",
+			"جودت"
 		]
 	},
 	"form-desc": "[[Special:Form|form interface]] لبدء الصفحات الجديدة",
 	"form": "ابدأ صفحة جديدة",
-	"form-captcha-error": "خطأ في اختبار كابتشا",
+	"form-captcha-error": "خطأ في اختبار حروف التحقق",
 	"form-pick-form": "اختر نوع الصفحة التي تريد إنشاءها من خلال نموذج.",
 	"form-no-name": "لا يوجد اسم نموذج",
 	"form-no-name-text": "يجب توفير اسم للنموذج، مثل \"Special:Form/Nameofform\".",
