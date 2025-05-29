@@ -3,11 +3,12 @@
 		"authors": [
 			"Kly",
 			"Liangent",
-			"Wrightbus"
+			"Wrightbus",
+			"列维劳德"
 		]
 	},
 	"form-desc": "用來產生新頁面的[[Special:Form|表單介面]]。",
-	"form": "開始一個新頁面",
+	"form": "新建頁面",
 	"form-captcha-error": "驗證碼錯誤",
 	"form-pick-form": "挑選您透過表單所要建立頁面的類型。",
 	"form-no-name": "未有表格名稱",
