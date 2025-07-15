@@ -232,12 +232,17 @@ $specialPageAliases['vi'] = [
 	'Form' => [ 'Biểu_mẫu' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'Form' => [ 'Form' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'Form' => [ '表单' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
-	'Form' => [ '表格' ],
+	'Form' => [ '表單' ],
 ];
