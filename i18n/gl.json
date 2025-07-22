@@ -8,7 +8,7 @@
 		]
 	},
 	"form-desc": "Un [[Special:Form|interface de formulario]] para comezar páxinas novas",
-	"form": "Comezar unha nova páxina",
+	"form": "Comezar unha páxina nova",
 	"form-captcha-error": "Erro de CAPTCHA",
 	"form-pick-form": "Escoller o tipo de páxina que desexa crear por medio dun formulario.",
 	"form-no-name": "Formulario sen nome",
