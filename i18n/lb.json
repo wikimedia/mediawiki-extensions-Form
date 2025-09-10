@@ -3,7 +3,8 @@
 		"authors": [
 			"Les Meloures",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"form-desc": "E [[Special:Form|Formulaire]] fir nei Säiten unzefänken",
@@ -12,7 +13,7 @@
 	"form-no-name": "Keen Numm vum Formulaire",
 	"form-no-name-text": "Dir musst en Numm vum Formulaire uginn, zum Beispill \"Special:Form/NummvumFormulaire\".",
 	"form-bad-name": "Falschen Numm vum Formulaire",
-	"form-bad-name-text": "Et gëtt kee Formulaire mat dem Numm.",
+	"form-bad-name-text": "Et gëtt kee Formulaire mat deem Numm.",
 	"form-pattern": "$1-Formulaire",
 	"form-title-pattern": "Nei $1 derbäisetzen",
 	"form-save": "Späicheren",
