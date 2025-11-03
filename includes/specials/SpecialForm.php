@@ -1,6 +1,8 @@
 <?php
 
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 
 /**
  * Form extension -- Use a form-based interface to start new articles
