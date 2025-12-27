@@ -153,12 +153,7 @@ class SpecialForm extends SpecialPage {
 			return null;
 		}
 
-		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
-			// MW 1.36+
-			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $nt );
-		} else {
-			$page = new WikiPage( $nt );
-		}
+		$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $nt );
 		$text = $page->getContent()->getNativeData();
 
 		# Form constructor does the parsing
@@ -232,7 +227,10 @@ class SpecialForm extends SpecialPage {
 		$user = $this->getUser();
 
 		# Check ordinary CAPTCHA
-		if ( $this->useCaptcha() && !ConfirmEditHooks::getInstance()->passCaptchaFromRequest( $request, $user ) ) {
+		if (
+			$this->useCaptcha() &&
+			!MediaWiki\Extension\ConfirmEdit\Hooks::getInstance()->passCaptchaFromRequest( $request, $user )
+		) {
 			$msg = $this->msg( 'form-captcha-error' )->plain();
 			$this->showForm( $form, $msg );
 			return;
@@ -288,12 +286,8 @@ class SpecialForm extends SpecialPage {
 			}
 		}
 
-		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
-			// MW 1.36+
-			$wikiPageFactory = MediaWikiServices::getInstance()->getWikiPageFactory();
-		} else {
-			$wikiPageFactory = null;
-		}
+		$wikiPageFactory = MediaWikiServices::getInstance()->getWikiPageFactory();
+
 		# At this point, all $nt titles should be valid, although we're subject to race conditions.
 		for ( $i = 0; $i < count( $form->template ); $i++ ) {
 			$template = $form->template[$i];
@@ -316,28 +310,14 @@ class SpecialForm extends SpecialPage {
 
 			wfDebug( __METHOD__ . ": saving article with index '$i' and title '$title'\n" );
 
-			if ( $wikiPageFactory !== null ) {
-				// MW 1.36+
-				$page = $wikiPageFactory->newFromTitle( $nt[$i] );
-			} else {
-				$page = WikiPage::factory( $nt[$i] );
-			}
+			$page = $wikiPageFactory->newFromTitle( $nt[$i] );
 
-			if ( method_exists( $page, 'doUserEditContent' ) ) {
-				// MW 1.36+
-				$status = $page->doUserEditContent(
-					ContentHandler::makeContent( $text, $page->getTitle() ),
-					$this->getUser(),
-					$this->msg( 'form-save-summary', $form->name )->text(),
-					EDIT_NEW
-				);
-			} else {
-				$status = $page->doEditContent(
-					ContentHandler::makeContent( $text, $page->getTitle() ),
-					$this->msg( 'form-save-summary', $form->name )->text(),
-					EDIT_NEW
-				);
-			}
+			$status = $page->doUserEditContent(
+				ContentHandler::makeContent( $text, $page->getTitle() ),
+				$this->getUser(),
+				$this->msg( 'form-save-summary', $form->name )->text(),
+				EDIT_NEW
+			);
 
 			if ( $status === false || ( is_object( $status ) && !$status->isOK() ) ) {
 				$out->showErrorPage( 'form-save-error', 'form-save-error-text', [ $title ] );
@@ -392,6 +372,7 @@ class SpecialForm extends SpecialPage {
 		$editPage = new FakeEditPage( $nt );
 		$services = MediaWikiServices::getInstance();
 		$userPermissionManager = $services->getPermissionManager();
+
 		# FIXME: more specific errors, copied from EditPage.php
 		if ( $wgSpamRegex && preg_match( $wgSpamRegex, $text, $matches ) ) {
 			$out->showErrorPage( 'form-save-error', 'form-save-error-text' );
@@ -441,7 +422,7 @@ class SpecialForm extends SpecialPage {
 		// NOTE: make sure we have a session. May be required for CAPTCHAs to work.
 		\MediaWiki\Session\SessionManager::getGlobalSession()->persist();
 
-		$captcha = ConfirmEditHooks::getInstance();
+		$captcha = MediaWiki\Extension\ConfirmEdit\Hooks::getInstance();
 		$captcha->setTrigger( 'form' );
 		$captcha->setAction( 'createpageviaform' );
 
