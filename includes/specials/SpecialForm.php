@@ -214,7 +214,7 @@ class SpecialForm extends SpecialPage {
 
 		$out->addHTML(
 			Html::hidden( 'wpEditToken', $user->getEditToken() ) .
-			Xml::submitButton( $this->msg( 'form-save' )->text() )
+			Html::submitButton( $this->msg( 'form-save' )->text(), [] )
 		);
 
 		$out->addHTML( Xml::closeElement( 'form' ) );
