@@ -171,24 +171,24 @@ class SpecialForm extends SpecialPage {
 
 		if ( $form->instructions !== null ) {
 			$out->addHTML(
-				Xml::openElement( 'div', [ 'class' => 'instructions' ] ) .
+				Html::openElement( 'div', [ 'class' => 'instructions' ] ) .
 				$out->parseAsInterface( $form->instructions ) .
-				Xml::closeElement( 'div' ) .
-				Xml::element( 'br' )
+				Html::closeElement( 'div' ) .
+				Html::element( 'br' )
 			);
 		}
 
 		if ( $errMsg !== null ) {
 			$out->addHTML(
-				Xml::openElement( 'div', [ 'class' => 'error' ] ) .
+				Html::openElement( 'div', [ 'class' => 'error' ] ) .
 				$out->parseAsInterface( $errMsg ) .
-				Xml::closeElement( 'div' ) .
-				Xml::element( 'br' )
+				Html::closeElement( 'div' ) .
+				Html::element( 'br' )
 			);
 		}
 
 		$out->addHTML(
-			Xml::openElement( 'form', [
+			Html::openElement( 'form', [
 					'method' => 'post',
 					'action' => $self->getLocalURL()
 				]
@@ -198,7 +198,7 @@ class SpecialForm extends SpecialPage {
 		foreach ( $form->fields as $field ) {
 			$out->addHTML(
 				$field->render( $request->getText( $field->name ) ) .
-				Xml::element( 'br' ) . "\n"
+				Html::element( 'br' ) . "\n"
 			);
 		}
 
@@ -212,7 +212,7 @@ class SpecialForm extends SpecialPage {
 			Html::submitButton( $this->msg( 'form-save' )->text(), [] )
 		);
 
-		$out->addHTML( Xml::closeElement( 'form' ) );
+		$out->addHTML( Html::closeElement( 'form' ) );
 	}
 
 	/**

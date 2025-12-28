@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\Html\Html;
+
 /**
  * Form extension -- Use a form-based interface to start new articles
  * Copyright 2007 Vinismo, Inc. (http://vinismo.com/)
@@ -77,22 +80,22 @@ class FormField {
 
 		switch ( $this->type ) {
 			case 'textarea':
-				return Xml::openElement( 'h2' ) .
-					Xml::element( 'label', [ 'for' => $this->name ], $this->label ) .
-					Xml::closeElement( 'h2' ) .
+				return Html::openElement( 'h2' ) .
+					Html::element( 'label', [ 'for' => $this->name ], $this->label ) .
+					Html::closeElement( 'h2' ) .
 					( ( $this->description ) ?
-					( Xml::openElement( 'div' ) . $wgOut->parseAsContent( $this->description ) . Xml::closeElement( 'div' ) ) : '' ) .
-					Xml::openElement( 'textarea',
+					( Html::openElement( 'div' ) . $wgOut->parseAsContent( $this->description ) . Html::closeElement( 'div' ) ) : '' ) .
+					Html::openElement( 'textarea',
 						[
 							'name' => $this->name,
 							'id' => $this->name
 						]
 					) .
 					( ( $def === null ) ? '' : $def ) .
-					Xml::closeElement( 'textarea' );
+					Html::closeElement( 'textarea' );
 			case 'text':
-				return Xml::element( 'label', [ 'for' => $this->name ], $this->label ) . wfMessage( 'colon-separator' )->text() .
-					Xml::element( 'input',
+				return Html::element( 'label', [ 'for' => $this->name ], $this->label ) . wfMessage( 'colon-separator' )->text() .
+					Html::element( 'input',
 						[
 							'type' => 'text',
 							'name' => $this->name,
@@ -110,8 +113,8 @@ class FormField {
 				if ( $def == 'checked' ) {
 					$attrs['checked'] = 'checked';
 				}
-				return Xml::element( 'label', [ 'for' => $this->name ], $this->label ) . wfMessage( 'colon-separator' )->text() .
-					Xml::element( 'input', $attrs );
+				return Html::element( 'label', [ 'for' => $this->name ], $this->label ) . wfMessage( 'colon-separator' )->text() .
+					Html::element( 'input', $attrs );
 			case 'radio':
 				$items = [];
 				$rawItems = explode( ';', $this->getOption( 'items' ) );
@@ -124,25 +127,25 @@ class FormField {
 					if ( $item == $def ) {
 						$attrs['checked'] = 'checked';
 					}
-					$items[] = Xml::element( 'input', $attrs ) .
-						Xml::element( 'label', null, $item );
+					$items[] = Html::element( 'input', $attrs ) .
+						Html::element( 'label', [], $item );
 				}
-				return Xml::element( 'span', null, $this->label ) . Xml::element( 'br' ) . implode( '', $items );
+				return Html::element( 'span', [], $this->label ) . Html::element( 'br' ) . implode( '', $items );
 			case 'select':
 				$items = [];
 				$rawItems = explode( ';', $this->getOption( 'items' ) );
 				foreach ( $rawItems as $item ) {
-					$items[] = Xml::element(
+					$items[] = Html::element(
 						'option',
 						( $item == $def ) ? [ 'selected' => 'selected' ] : null,
 						$item
 					);
 				}
 
-				return Xml::element( 'label', [ 'for' => $this->name ], $this->label ) . wfMessage( 'colon-separator' )->text() .
-					Xml::openElement( 'select', [ 'name' => $this->name, 'id' => $this->name ] ) .
+				return Html::element( 'label', [ 'for' => $this->name ], $this->label ) . wfMessage( 'colon-separator' )->text() .
+					Html::openElement( 'select', [ 'name' => $this->name, 'id' => $this->name ] ) .
 					implode( '', $items ) .
-					Xml::closeElement( 'select' );
+					Html::closeElement( 'select' );
 			default:
 				wfDebug( __METHOD__ . ": unknown form field type '$this->type', skipping.\n" );
 				return '';
