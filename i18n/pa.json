@@ -4,5 +4,24 @@
 			"Cabal"
 		]
 	},
-	"form-article-exists": "ਵਰਕਾ ਮੌਜੂਦ ਏ"
+	"form": "ਨਵਾਂ ਵਰਕਾ ਸ਼ੁਰੂ ਕਰੋ",
+	"form-captcha-error": "CAPTCHA ਗਲਤੀ",
+	"form-pick-form": "ਉਸ ਵਰਕੇ ਦੀ ਕਿਸਮ ਚੁਣੋ ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਪਰਚੇ ਰਾਹੀਂ ਬਣਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+	"form-no-name": "ਪਰਚੇ ਦਾ ਨਾਂ ਨਹੀਂ ਲਿਖਿਆ",
+	"form-no-name-text": "ਪਰਚੇ ਦਾ ਨਾਂ ਲਿਖਣਾ ਲੋੜੀਂਦੇ ਏ, ਜਿਵੇਂ \"Special:Form/ਪਰਚੇ ਦਾ ਨਾਂ\"।",
+	"form-bad-name": "ਪਰਚੇ ਦਾ ਨਾਂ ਗ਼ਲਤ ਏ",
+	"form-bad-name-text": "ਇਸ ਨਾਂ ਦਾ ਕੋਈ ਪਰਚਾ ਨਹੀਂ ਏ।",
+	"form-pattern": "$1-ਪਰਚਾ",
+	"form-title-pattern": "ਨਵਾਂ $1 ਸ਼ਾਮਲ ਕਰੋ",
+	"form-save": "ਸਾਂਭੋ",
+	"form-index-mismatch-title": "ਨਾਂ ਦਾ ਨਮੂਨਾ ਅਤੇ ਫਰਮਾ ਬੇਮੇਲ ਨੇ।",
+	"form-index-mismatch": "ਇਸ ਪਰਚੇ ਵਿੱਚ ਨਾਂ ਦੇ ਨਮੂਨੇ ਅਤੇ ਫਰਮੇ $1 ਤਤਕਰਾ ਤੋਂ ਬੇਮੇਲ ਨੇ।",
+	"form-article-exists": "ਵਰਕਾ ਮੌਜੂਦ ਏ",
+	"form-article-existstext": "[[$1]] ਵਰਕਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਏ।",
+	"form-bad-page-name": "ਵਰਕੇ ਦਾ ਨਾਂ ਗ਼ਲਤ ਏ",
+	"form-bad-page-name-text": "ਪਰਚੇ ਵਿੱਚ ਤੁਹਾਡੇ ਵੱਲੋਂ ਦਾਖਲ ਵੇਰਵਾ ਇੱਕ ਗਲਤ ਵਰਕੇ ਦਾ ਨਾਂ ਬਣਾਉਂਦਾ ਏ, \"$1\"।",
+	"form-required-field-error": "ਇਸ ਪਰਚੇ ਲਈ {{PLURAL:$2|ਖ਼ਾਨਾ $1|ਖ਼ਾਨੇ $1}} ਲੋੜੀਂਦੇ {{PLURAL:$2|ਏ|ਨੇ}}। \nਕਿਰਪਾ ਕਰਕੇ {{PLURAL:$2| ਇਹਨਾਂ|ਉਹਨਾਂ}} ਨੂੰ ਭਰੋ।",
+	"form-save-summary": "[[Special:Form/$1|ਪਰਚਾ $1]] ਵਰਤ ਕੇ ਨਵਾਂ ਵਰਕਾ ਬਣਾਇਆ ਗਿਆ ਏ",
+	"form-save-error": "ਪਰਚਾ ਸਾਂਭਣ ਵਿੱਚ ਗ਼ਲਤੀ ਆਈ ਏ",
+	"form-save-error-text": "$1' ਵਰਕਾ ਸਾਂਭਣ ਵੇਲੇ ਕੋਈ ਅਣਜਾਣ ਗ਼ਲਤੀ ਆਈ ਏ।"
 }
