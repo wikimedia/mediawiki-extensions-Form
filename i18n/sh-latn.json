@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
-	"form-desc": "[[Special:Form|Sučelje]] za započinjanje novih stranica",
+	"form-desc": "[[Special:Form|Interfejs]] za započinjanje novih stranica",
 	"form": "Započni novu stranicu",
 	"form-captcha-error": "Greška u sličici za provjeru",
 	"form-pick-form": "Izaberite koju stranicu želite izraditi putem obrascota.",
