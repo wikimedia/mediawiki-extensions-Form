@@ -1,12 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Saurmandal",
 			"Smtchahal"
 		]
 	},
+	"form-desc": "नए पृष्ठ बनाने के लिए एक [[Special:Form|फ़ॉर्म इंटरफ़ेस]]",
+	"form": "नया पृष्ठ आरंभ करें",
 	"form-captcha-error": "CAPTCHA त्रुटि",
-	"form-no-name": "कोई फ़ाॅर्म नाम नहीं",
-	"form-bad-name-text": "उस नाम का कोई फ़ाॅर्म नहीं है।",
+	"form-pick-form": "आप फ़ॉर्म की मदद से जो पृष्ठ बनाना चाहते हैं, उसका प्रकार चुनें।",
+	"form-no-name": "फ़ॉर्म का कोई नाम नहीं",
+	"form-no-name-text": "आपको फ़ॉर्म का एक नाम प्रदान करना होगा, जैसे \"Special:Form/फ़ॉर्मकानाम\"।",
+	"form-bad-name": "खराब फ़ॉर्म नाम",
+	"form-bad-name-text": "उस नाम से कोई फ़ाॅर्म नहीं है।",
 	"form-pattern": "$1-फ़ाॅर्म",
 	"form-title-pattern": "नया $1 जोड़ें",
 	"form-save": "सहेजें",
