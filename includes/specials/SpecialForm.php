@@ -33,7 +33,12 @@ class SpecialForm extends SpecialPage {
 	 * Constructor
 	 */
 	public function __construct() {
-		parent::__construct( 'Form', 'createpage' );
+		parent::__construct( 'Form' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'createpage';
 	}
 
 	/**
