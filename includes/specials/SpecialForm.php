@@ -154,7 +154,11 @@ class SpecialForm extends SpecialPage {
 		}
 
 		$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $nt );
-		$text = $page->getContent()->getNativeData();
+		$content = $page->getContent();
+		if ( !$content instanceof TextContent ) {
+			return null;
+		}
+		$text = $content->getText();
 
 		# Form constructor does the parsing
 		return new Form( $name, $text );
