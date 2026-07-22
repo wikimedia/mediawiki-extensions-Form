@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Fluence",
-			"Languaeditor"
+			"Languaeditor",
+			"Akapochtli"
 		]
 	},
 	"form-save": "Xikpiya",
-	"form-article-exists": "Zāzanilli ia",
-	"form-article-existstext": "Zāzanilli [[$1]] ye ia.",
+	"form-article-exists": "Ye oncah inin tlahcuilolamatl",
+	"form-article-existstext": "In tlahcuilolamatl [[$1]] ye oncah.",
 	"form-bad-page-name": "Ahcualli zāzaniltōcāitl"
 }
