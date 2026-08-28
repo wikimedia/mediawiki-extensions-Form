@@ -2,16 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Luky001"
+			"Luky001",
+			"Wizzard"
 		]
 	},
 	"form-desc": "[[Special:Form|Formulárové rozhranie]] na zakladanie nových stránok",
 	"form": "Založiť novú stránku",
+	"form-captcha-error": "Chyba CAPTCHA",
+	"form-pick-form": "Vyberte typ stránky, ktorú chcete vytvoriť pomocou formulára.",
 	"form-no-name": "Nezadali ste názov formulára",
 	"form-no-name-text": "Musíte zadať názov formulára v tvare „Special:Form/Názovformulára“",
 	"form-bad-name": "Chybný názov formulára",
 	"form-bad-name-text": "Formulár s takým názvom neexistuje.",
 	"form-pattern": "formulár-$1",
+	"form-title-pattern": "Pridať nový $1",
 	"form-save": "Uložiť",
 	"form-index-mismatch-title": "Vzor názvu a šablóna si nezodpovedajú.",
 	"form-index-mismatch": "Vzory názvu tohto formulára sa nezhodujú a šablóny začínajú od indexu $1.",
